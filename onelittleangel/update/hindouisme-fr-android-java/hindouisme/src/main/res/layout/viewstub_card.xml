@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sc.fr.hindouisme.layers.mvp.tablecontents.models.base.views.recyclerviews.BaseRecyclerView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recycler_view_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="never"
+    card:list_card_layout_resourceID="@layout/card_layout" />

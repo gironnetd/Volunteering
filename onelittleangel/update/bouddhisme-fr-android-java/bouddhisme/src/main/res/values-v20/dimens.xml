@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_elevation">1dp</dimen>
+    <dimen name="card_elevation_menu_quotes_right_left">0.5dp</dimen>
+    <dimen name="card_elevation_menu_quotes_bottom">0.8dp</dimen>
+    <!--<item name="mail_comment_border_width" format="float" type="dimen">4.0</item>-->
+</resources>

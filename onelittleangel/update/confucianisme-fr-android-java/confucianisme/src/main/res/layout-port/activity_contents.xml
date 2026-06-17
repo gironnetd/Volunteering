@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:grid="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <com.sc.fr.confucianisme.layers.mvp.common.customs.scrollviews.ObservableScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+            <FrameLayout
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <LinearLayout
+                    android:id="@+id/container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:id="@+id/place_holder"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.0dip"
+                        android:background="@android:color/transparent"/>
+                </LinearLayout>
+                <com.sc.fr.confucianisme.layers.mvp.common.customs.viewpagers.ViewPagerNative
+                    android:id="@+id/viewpager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal" />
+
+                <com.sc.fr.confucianisme.layers.mvp.contents.listgridviews.CardGridView
+                    android:id="@+id/gv_carrousel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/content_grid_view_margin_top"
+                    android:layout_marginBottom="@dimen/action_bar_padding"
+                    android:columnWidth="@dimen/gridview_column_width"
+                    android:numColumns="auto_fit"
+                    android:stretchMode="columnWidth"
+                    android:scrollbars="none"
+                    android:visibility="gone"
+                    android:overScrollMode="never"
+                    grid:list_card_layout_resourceID="@layout/gridviewlist_carrousel"/>
+            </FrameLayout>
+    </com.sc.fr.confucianisme.layers.mvp.common.customs.scrollviews.ObservableScrollView>
+
+    <FrameLayout
+        android:id="@+id/fl_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false">
+        <ImageView
+            android:id="@+id/quote_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|start"
+            android:background="@drawable/quote_left_text"
+            android:scaleType="centerCrop"/>
+
+        <ImageView
+            android:id="@+id/quote_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|end"
+            android:background="@drawable/quote_right_text"
+            android:scaleType="centerCrop"/>
+    </FrameLayout>
+
+
+
+    <FrameLayout
+        android:id="@+id/fl_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingStart="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingEnd="@dimen/activity_horizontal_margin"
+        android:visibility="gone">
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_header"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+            <com.sc.fr.confucianisme.layers.mvp.common.customs.textviews.TextViewNative
+                android:id="@+id/title_contents"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/title_margin_top"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:text="@string/contents_title"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/title_text_size" />
+
+            <ImageView
+                android:id="@+id/iv_pictures"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:src="@drawable/ic_ab_pictures"/>
+
+            <com.sc.fr.confucianisme.layers.mvp.common.customs.textviews.TextViewNative
+                android:id="@+id/txt_biography_faiths"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/action_bar_padding"
+                android:layout_marginRight="@dimen/action_bar_padding"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:textSize="@dimen/tc_text_size" />
+
+            <com.sc.fr.confucianisme.layers.mvp.common.customs.textviews.TextViewNative
+                android:id="@+id/txt_author_book_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/action_bar_padding"
+                android:layout_marginRight="@dimen/action_bar_padding"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:textSize="@dimen/tc_text_size" />
+
+            <com.sc.fr.confucianisme.layers.mvp.common.customs.textviews.TextViewNative
+                android:id="@+id/txt_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/action_bar_padding"
+                android:layout_marginRight="@dimen/action_bar_padding"
+                android:visibility="gone"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:textSize="@dimen/tc_text_size" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rl_number"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:padding="@dimen/action_bar_margin"
+        android:visibility="invisible"
+        android:background="@drawable/test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.sc.fr.confucianisme.layers.mvp.common.graphics.Arrow
+            android:id="@+id/arrow_previous"
+            android:layout_width="@dimen/arrow_dimension"
+            android:layout_height="@dimen/arrow_dimension"
+            android:layout_gravity="center_vertical"
+            android:visibility="invisible"
+
+            android:tag="WEST"/>
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:visibility="invisible"
+
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_ab_home_page"/>
+
+
+        <LinearLayout
+            android:id="@+id/ll_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+
+            android:layout_gravity="center_vertical">
+
+            <com.sc.fr.confucianisme.layers.mvp.common.customs.textviews.TextViewNative
+                android:id="@+id/txtn_position_quotes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/tc_text_size"/>
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/et_choose_quotes"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2dp"
+                android:inputType="numberDecimal"
+                android:paddingBottom="2dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="0dp"
+                android:paddingTop="0dp"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/tc_text_size"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:visibility="invisible">
+
+            <com.sc.fr.confucianisme.layers.mvp.common.customs.textviews.TextViewNative
+                android:id="@+id/divider"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/divider"
+
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/tc_text_size"/>
+
+            <com.sc.fr.confucianisme.layers.mvp.common.customs.textviews.TextViewNative
+                android:id="@+id/txtn_quotes_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/tc_text_size"/>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/ic_ab_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:visibility="invisible"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:background="@drawable/ic_ab_search"
+            android:contentDescription="@string/app_name"/>
+
+        <com.sc.fr.confucianisme.layers.mvp.common.graphics.Arrow
+            android:id="@+id/arrow_next"
+            android:layout_width="@dimen/arrow_dimension"
+            android:layout_height="@dimen/arrow_dimension"
+            android:layout_gravity="center_vertical"
+            android:visibility="invisible"
+
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:tag="EAST"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_image_comment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+    <android.support.v7.widget.CardView
+        xmlns:card="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cv_image_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        card:cardUseCompatPadding="true"
+        card:cardBackgroundColor="@android:color/white"
+        card:cardCornerRadius="2dp"
+        card:cardElevation="@dimen/card_elevation">
+
+    <com.sc.fr.confucianisme.layers.mvp.common.customs.textviews.TextViewNative
+        android:id="@+id/txtn_expanded_image_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/activity_horizontal_double_margin"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/tc_text_size"
+        />
+    </android.support.v7.widget.CardView>
+
+    </FrameLayout>
+
+    <com.sc.fr.confucianisme.layers.mvp.common.customs.imagezoom.ImageViewTouch
+        android:id="@+id/expanded_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:background="@android:color/transparent"
+        android:layout_gravity="center_horizontal|center_vertical"/>
+
+        <com.sc.fr.confucianisme.layers.mvp.common.customs.circle.Circle
+            android:id="@+id/details_circle"
+            android:layout_gravity="left|end|bottom"
+            android:tag="LEFT"
+            android:visibility="gone"
+            android:layout_width="@dimen/image_comment_size"
+            android:layout_height="@dimen/image_comment_size"/>
+
+        <ImageView
+            android:id="@+id/iv_details_circle"
+            android:layout_gravity="left|end|bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_display_details_image"
+            android:visibility="gone"
+            />
+
+        <com.sc.fr.confucianisme.layers.mvp.common.customs.circle.Circle
+            android:id="@+id/wallpapers_add_circle"
+            android:layout_gravity="right|end|bottom"
+            android:tag="RIGHT"
+            android:visibility="gone"
+            android:layout_width="@dimen/image_comment_size"
+            android:layout_height="@dimen/image_comment_size"/>
+
+        <ImageView
+            android:id="@+id/iv_wallpapers_add_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_add_wallpaper"
+            android:visibility="gone"
+            android:layout_gravity="right|end|bottom" />
+
+    <android.support.v7.widget.CardView
+        xmlns:card="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/fab_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right|end"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="@dimen/content_card_margin"
+        android:orientation="vertical"
+        card:cardBackgroundColor="@android:color/white"
+
+        card:cardCornerRadius="2.0dip"
+        card:cardElevation="@dimen/card_elevation"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/ll_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/action_bar_margin"
+            android:layout_marginStart="@dimen/action_bar_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/action_bar_margin"
+            android:layout_marginEnd="@dimen/action_bar_margin"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/add_to_favorites"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="center"
+                android:src="@drawable/ic_menu_add_favorites"
+                android:visibility="gone"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <ImageView
+                android:id="@+id/fab_txt_increase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:scaleType="center"
+                android:src="@drawable/ic_fab_text_increase"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/fab_txt_decrease"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:scaleType="center"
+                android:src="@drawable/ic_fab_text_decrease"
+                android:visibility="gone"/>
+
+            <ImageView
+                style="@style/floating_action_button"
+                android:id="@+id/fab_social_networks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:scaleType="center"
+                android:src="@drawable/ic_fb_mail"
+                android:visibility="gone"/>
+
+            <ImageView
+                style="@style/floating_action_button"
+                android:id="@+id/fab_type_faces"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:scaleType="center"
+                android:src="@drawable/ic_fab_fonts"
+                android:visibility="gone"
+                />
+
+            <ImageView
+                style="@style/floating_action_button"
+                android:id="@+id/fab_microphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:scaleType="center"
+                android:src="@drawable/ic_fab_microphone"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</FrameLayout>

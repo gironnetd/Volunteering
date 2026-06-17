@@ -1,0 +1,245 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Hindouisme&#160;</string>
+    <string name="onelittleangel_title">&#160;&#160;Hindouisme&#160;&#160;</string>
+    <string name="favorites_title">Favoris&#160;</string>
+    <string name="contents_title">Citations&#160;</string>
+    <string name="space">&#160;</string>
+    <string name="homepage_title"/>
+    <string name="authors_title">auteurs&#160;</string>
+    <string name="faiths_title">courants&#160;</string>
+    <string name="books_title">livres&#160;</string>
+    <string name="themes_title">thèmes&#160;</string>
+    <string name="doubleclick_exit">double cliquez pour sortir&#160;</string>
+    <string name="biography_of_the_day">Biographie du Jour&#160;</string>
+    <string name="picture_of_the_day">Portrait du Jour&#160;</string>
+    <string name="quotes_of_the_day">Citation du Jour&#160;</string>
+    <string name="more_quotes">+ de citations&#160;</string>
+    <string name="quotes_of">Citations&#160;</string>
+    <string name="biography_of">Biographie&#160;</string>
+    <string name="history_of">Histoire&#160;</string>
+
+    // nav_title
+    <string name="movements_nav_title">&#160;Courants&#160;</string>
+    <string name="typefaces_nav_title">&#160;Choix de Polices&#160;</string>
+    <string name="comments_nav_title">&#160;Noter cette application&#160;</string>
+    <string name="tips_nav_title">&#160;Astuces&#160;</string>
+    <string name="notifications_nav_title">&#160;Notifications&#160;</string>
+
+    <string name="develop_by">&#160;développé par&#160;</string>
+    <string name="develop_for">&#160;pour&#160;</string>
+
+    <string name="comments_playstore_ask">Partager son avis dans les commentaires du playstore Google ?&#160;</string>
+    <string name="thanks_to_give_comment">Merci.&#160;</string>
+
+    <string name="adding_to_favorites_ask">Ajouter aux favoris ?&#160;</string>
+    <string name="removing_to_favorites_ask">Retirer des favoris ?&#160;</string>
+
+    <string name="tips_main_menu">Menu principal \n(menu du haut)&#160;</string>
+    <string name="tips_ab_arrow_previous"> Page précédente&#160;</string>
+    <string name="tips_menu_tools"> Paramétrage&#160;</string>
+    <string name="tips_menu_favorite"> Voir les favoris&#160;</string>
+
+    <string name="tips_menu_quotes">Menu Citations \n(sous menu)&#160;</string>
+    <string name="tips_arrow_previous"> citations suivantes (ou geste du doigt vers la gauche)&#160;</string>
+    <string name="tips_arrow_next"> citations précédentes (ou geste du doigt vers la droite)&#160;</string>
+    <string name="tips_menu_add_favorite"> Ajouter aux favoris (ou double click)&#160;</string>
+    <string name="tips_menu_remove_favorites"> Retirer des favoris (ou double click)&#160;</string>
+    <string name="tips_menu_biography">Menu Biographie \n(sous menu)&#160;</string>
+
+    <string name="tips_presentation_1"> Présentation 1&#160;</string>
+    <string name="tips_presentation_2"> Présentation 2&#160;</string>
+    <string name="tips_presentation_3"> Présentation 3&#160;</string>
+    <string name="tips_presentation_4"> Présentation 4&#160;</string>
+    <string name="tips_presentation_5"> Présentation 5&#160;</string>
+    <string name="tips_presentation_ab_bibliography"> Voir la bibliographie&#160;</string>
+
+    <string name="tips_menu_fab">Menu Supplémentaire \n(menu vertical de droite)&#160;</string>
+    <string name="tips_fab_text_increase"> Agrandir la taille du texte (ou écarter des deux doigts)&#160;</string>
+    <string name="tips_fab_text_decrease"> Diminuer la taille du texte (ou joindre les deux doigts)&#160;</string>
+    <string name="tips_fb_mail"> Envoyer la citation / biographie par email&#160;</string>
+    <string name="tips_fab_fonts"> Changer la fonte du texte&#160;</string>
+    <string name="tips_fab_microphone"> Ecouter la citation / biographie&#160;
+ </string>
+
+    <string name="tips_search"> Accédez au numéro de citation sélectionné (ajoutez le numéro de la citation et cliquez à nouveau sur la loupe)&#160;</string>
+
+    <string name="tips_presentation_ab_pictures"> Voir les portraits / images&#160;</string>
+
+    <string name="loading_pictures">&#160;téléchargement d\'images &#8230;&#160;</string>
+
+
+    <string name="record_account">&#160;Enregistrer votre compte&#160;</string>
+    <string name="change_account">&#160;Changer de compte&#160;</string>
+    <string name="modify">&#160;Modifier&#160;</string>
+    <string name="confirm">OUI</string>
+    <string name="cancel">NON</string>
+
+    <string name="choose_typeface">Choisir ses polices&#160;</string>
+    <string name="choose_other_typeface">choisir d\'autres polices&#160;</string>
+
+    <string name="choose_typeface_ask">Sélectionner les polices dans parramètrage&#160;</string>
+    <string name="confirm_typeface_choice">Conserver la police ?&#160;</string>
+
+    <string name="send_mail">Envoyer&#160;</string>
+    <string name="quote_sended">Citation envoyée&#160;</string>
+    <string name="quote_not_sended">la citation n\'a pas pu être envoyée&#160;</string>
+
+    <string name="bibliography">&#160;Bibliographie&#160;</string>
+    <string name="bibliography_loading">&#160;patienter svp &#8230;&#160;</string>
+    <string name="biography">&#160;Biographie&#160;</string>
+    <string name="biography_and_calligraphy">&#160;Biographie &amp; portraits&#160;</string>
+    <string name="presentation">&#160;Histoire&#160;</string>
+    <string name="presentation_and_calligraphy">&#160;Histoire &amp; calligraphie&#160;</string>
+    <string name="faiths">&#160;Histoire &amp; dogmes&#160;</string>
+    <string name="faiths_and_pictures">&#160;Histoire, dogmes &amp; images&#160;</string>
+
+    <string name="divider">&#160;/&#160;</string>
+    <string name="receive_notifications_ask">recevoir des notifications ?&#160;</string>
+
+    <string name="err_msg_email">entrer votre mail&#160;</string>
+    <string name="err_msg_email_not_valid">le mail n\'est pas valide&#160;</string>
+    <string name="add_comment">ajouter un commentaire &#8230;&#160;</string>
+    <!--<string name="err_msg_password">Entrer votre mot de passe&#160;</string>-->
+
+    <string name="homepage">homepage</string>
+    <string name="authors">authors</string>
+    <string name="movements">movements</string>
+    <string name="themes">themes</string>
+    <string name="books">books</string>
+
+    <string name="from">from</string>
+    <string name="fromFragment">fromFragment</string>
+
+    <string name="returnTo">returnTo</string>
+
+    <string name="twitter">&#160;Twitter&#160;</string>
+
+    <string name="mail">&#160;Mails&#160;</string>
+    <string name="facebook">&#160;Facebook&#160;</string>
+
+    <string name="google_plus">&#160;Google+&#160;</string>
+
+    <string name="register_account_ask">Merci d\'enregistrer votre compte.</string>
+
+    <string name="confirm_home_screen_changing">écran d\'accueil modifié&#160;</string>
+    <string name="confirm_home_lock_screen_changing">écran d\'accueil et de verrouillage modifiés&#160;</string>
+    <string name="confirm_lock_screen_changing">écran de verrouillage modifié&#160;</string>
+
+    <string name="mail_choose_at_leat_one">Veuillez sélectionner au moins une adresse&#160;</string>
+    <string name="no_available_content">Aucun livres pour ce courant.Merci de se référer aux auteurs ou d\'ajouter d\'autres courants dans Outils/Choix des courants&#160;</string>
+
+    <string-array name="movements">
+        <item>Bouddhisme</item>
+        <item>Christianisme</item>
+        <item>Confucianisme</item>
+        <item>Divers Courants</item>
+        <item>Hindouisme</item>
+        <item>Islam</item>
+        <item>Judaïsme</item>
+        <item>Philosophie</item>
+        <item>Sagesses &amp; Traditions</item>
+        <item>Taoisme</item>
+    </string-array>
+
+    <string-array name="fonts">
+        <item>Almendra-Regular</item>
+        <item>Cinzel-Regular</item>
+        <item>EagleLake-Regular</item>
+        <item>FrederickatheGreat-Regular</item>
+        <item>Gabriela-Regular</item>
+        <item>IM_Fell_Double_Pica</item>
+        <item>IM_Fell_DW_Pica</item>
+        <item>IMFellEnglish-Regular</item>
+        <item>IM_Fell_Great_Primer</item>
+        <item>Italianno-Regular</item>
+        <item>LoversQuarrel-Regular</item>
+        <item>Macondo-Regular</item>
+        <item>Monotype-Corsiva-Regular</item>
+        <item>Parisienne-Regular</item>
+        <item>Quintessential-Regular</item>
+        <item>Rosarivo-Regular</item>
+        <item>SortsMillGoudy-Italic</item>
+        <item>UnifrakturMaguntia-Book</item>
+    </string-array>
+
+    <string name="hint_email">email</string>
+    <!--<string name="hint_password">password</string>-->
+
+    <!--<string name="of">&#160;de&#160;</string>-->
+    <!--<string name="of_plurals">&#160;des&#160;</string>-->
+
+    <!-- Pattern for the v1 month and year string (localised) -->
+    <!--<string name="mdtp_date_v1_monthyear">MMMM yyyy</string>-->
+    <!-- Pattern for the v2 day month and year string (localised) -->
+    <!--<string name="mdtp_date_v2_daymonthyear">EEE, MMM dd</string>-->
+
+    <!-- Label for date or time [CHAR LIMIT=30] -->
+    <!--<string name="mdtp_done_label">Done</string>-->
+    <string name="mdtp_ok">@android:string/ok</string>
+    <string name="mdtp_cancel">@android:string/cancel</string>
+    <!--
+         Content description for the hour selector in the time picker, which displays
+         selectable hours of the day along the inside edge of a circle, as in an analog clock.
+         [CHAR LIMIT=50]
+    -->
+    <string name="mdtp_hour_picker_description">Hours circular slider</string>
+    <!--
+         Content description for the minute selector in the time picker, which displays
+         selectable five-minute intervals along the inside edge of a circle, as in an analog clock.
+         [CHAR LIMIT=50]
+    -->
+    <string name="mdtp_minute_picker_description">Minutes circular slider</string>
+    <!--
+         Content description for the second selector in the time picker, which displays
+         selectable five-second intervals along the inside edge of a circle, as in an analog clock.
+         [CHAR LIMIT=50]
+    -->
+    <string name="mdtp_second_picker_description">Seconds circular slider</string>
+    <!-- Accessibility announcement for hour circular picker [CHAR LIMIT=NONE] -->
+    <string name="mdtp_select_hours">Select hours</string>
+    <!-- Accessibility announcement for minute circular picker [CHAR LIMIT=NONE] -->
+    <string name="mdtp_select_minutes">Select minutes</string>
+    <!-- Accessibility announcement for second circular picker [CHAR LIMIT=NONE] -->
+    <string name="mdtp_select_seconds">Select seconds</string>
+
+    <!--<string name="mdtp_date">Date</string>-->
+    <!--<string name="mdtp_time">Time</string>-->
+
+    <!--
+        Content description for the month and day selector in the date picker, which displays
+        a selectable grid of days laid out by month.
+        [CHAR LIMIT=50]
+     -->
+    <!--<string name="mdtp_day_picker_description">Month grid of days</string>-->
+    <!--
+        Content description for the year selector in the date picker, which displays
+        a scrolling, vertical list of years.
+        [CHAR LIMIT=50]
+     -->
+    <!--<string name="mdtp_year_picker_description">Year list</string>-->
+    <!-- Accessibility announcement for the day picker [CHAR LIMIT=NONE] -->
+    <!--<string name="mdtp_select_day">Select month and day</string>-->
+    <!-- Accessibility announcement for the year picker [CHAR LIMIT=NONE] -->
+    <!--<string name="mdtp_select_year">Select year</string>-->
+    <!-- Accessibility description for the item that is currently selected. -->
+    <!--<string name="mdtp_item_is_selected"><xliff:g id="item" example="2013">%1$s</xliff:g> selected</string>-->
+    <!-- Accessibility announcement when a number that had been typed in is deleted [CHAR_LIMIT=NONE] -->
+    <string name="mdtp_deleted_key"><xliff:g id="key" example="4">%1$s</xliff:g> deleted</string>
+
+    <!-- DO NOT TRANSLATE -->
+    <string name="mdtp_time_placeholder" translatable="false">00</string>
+    <!-- DO NOT TRANSLATE -->
+    <string name="mdtp_time_separator" translatable="false">:</string>
+
+    <!-- DO NOT TRANSLATE -->
+    <string name="mdtp_radial_numbers_typeface" translatable="false">sans-serif</string>
+    <!-- DO NOT TRANSLATE -->
+    <string name="mdtp_sans_serif" translatable="false">sans-serif</string>
+
+    <!-- DO NOT TRANSLATE -->
+    <!--<string name="mdtp_day_of_week_label_typeface" translatable="false">sans-serif</string>-->
+
+    <string name="mdtp_am">am</string>
+    <string name="mdtp_pm">pm</string>
+</resources>
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="#FFFFFF" />
+        </shape>
+    </item>
+    <item>
+        <bitmap
+            android:gravity="left|top"
+            android:src="@drawable/quote_left_text">
+        </bitmap>
+    </item>
+    <item>
+        <bitmap
+            android:gravity="right|top"
+            android:src="@drawable/quote_right_text" />
+    </item>
+</layer-list>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ga_trackingId">UA-4880113-1</string>
+    <string name="app_name">Bouddhime</string>
+    <string name="favorites">Favories</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu">Bouddhime</string>
+    <string name="menu_layout">Bouddhime</string>
+    <string name="menu_layout_large">Bouddhime</string>
+    <string name="menu_layout_xlarge">Bouddhime</string>
+    <string name="author">Auteurs</string>
+    <string name="book">Livres sacrés</string>
+    <string name="category">Thèmes</string>
+    <string name="saints">Saints</string>
+    <string name="courant">Courants</string>
+    <string name="quote">Citations</string>
+    <string name="back">Précédent</string>
+    <string name="forward">Suivant</string>
+    <string name="francais">francais</string>
+    <string name="anglais">anglais</string>
+    <string name="loading">loading</string>
+    <string name="tools">outils</string>
+    <string name="home">home</string>
+    <string name="firstLetter">firstLetter</string>
+    <string name="quote_left">quote_left</string>
+    <string name="quote_right">quote_right</string>
+    <string name="comma">,</string>
+    <string name="groupindicator">groupindicator</string>
+    <string name="bracket_one_group">[</string>
+    <string name="bracket_two_group">]</string>
+    <string name="bracket_one_child">(</string>
+    <string name="bracket_two_child">)</string>
+    <string name="space" />
+    <string name="layout_land">layout-land</string>
+    <string name="large_land">large-land</string>
+    <string name="designedBy">Application développée par Damien Gironnet,\nIcon crée par http://www.designbolts.com\nsous Licence gratuite.</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sc.en.taoism.layers.mvp.settings.smarttablayout.SmartTabLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/view_pager_tab"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/settings_stl_height"
+    android:layout_gravity="center_horizontal"
+    app:stl_defaultTabTextSize="@dimen/stl_text_size"
+    app:stl_dividerColor="@android:color/transparent"
+    app:stl_dividerThickness="0dp"
+    app:stl_indicatorColor="@android:color/transparent"
+    app:stl_indicatorCornerRadius="18dp"
+    app:stl_indicatorGravity="center"
+    app:stl_indicatorInterpolation="linear"
+    app:stl_indicatorThickness="0dp"
+    app:stl_indicatorWithoutPadding="false"
+    app:stl_underlineColor="@android:color/transparent"
+    app:stl_underlineThickness="0dp"/>

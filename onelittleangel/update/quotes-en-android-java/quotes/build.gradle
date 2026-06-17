@@ -1,0 +1,378 @@
+apply plugin: 'com.android.application'
+//apply plugin: 'me.tatarka.retrolambda'
+apply plugin: 'realm-android'
+//apply plugin: 'com.google.gms.google-services'
+
+android {
+
+    namespace "com.sc.en.quotes"
+    flavorDimensions "default"
+
+    buildFeatures {
+        buildConfig = true
+    }
+
+    signingConfigs {
+        config {
+            keyAlias 'test'
+            keyPassword '050580'
+            storeFile file('/Users/damien/Documents/onelittleAngel-android/test/olakeystore.keystore')
+            storePassword '050580'
+        }
+    }
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        applicationId "com.sc.en.quotes"
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 119
+        versionName "3.4"
+        resConfigs "en"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+
+    splits {
+        density {
+            enable false
+
+            //include only ldpi
+            //exclude 'mdpi', 'tvdpi', 'hdpi', 'xhdpi', 'xxhdpi', 'xxxhdpi'
+
+            //include only mdpi
+            //exclude 'ldpi', 'tvdpi', 'hdpi', 'xhdpi', 'xxhdpi', 'xxxhdpi'
+
+            //include only tvdpi
+            //exclude 'ldpi', 'mdpi','hdpi', 'xhdpi', 'xxhdpi', 'xxxhdpi'
+
+            //include only hdpi
+            //exclude 'ldpi', 'mdpi', 'xhdpi', 'xxhdpi', 'tvdpi', 'xxxhdpi'
+
+            //include only xdhpi
+            //exclude 'ldpi', 'mdpi', 'hdpi', 'xxhdpi', 'tvdpi', 'xxxhdpi'
+
+            //include only xxdhpi
+            exclude 'ldpi', 'mdpi', 'hdpi', 'xhdpi', 'tvdpi', 'xxxhdpi'
+
+            //include only xxxhdpi
+            //exclude 'ldpi', 'mdpi', 'hdpi', 'xhdpi', 'xxhdpi', 'tvdpi'
+
+            //include all screen
+            //compatibleScreens /*'small',*/ 'normal', 'large', 'xlarge'
+
+            //include only small screen
+            //compatibleScreens 'small'
+
+            //include only normal screen
+            //compatibleScreens 'normal'
+
+            //include only large screen
+            //compatibleScreens 'large'
+
+            //include only xlarge screen
+            //compatibleScreens 'xlarge'
+        }
+        abi {
+            enable true
+            reset()
+
+            //include only armeabi
+            //include "armeabi"
+
+            //include only armeabi-v7a
+            //include 'armeabi-v7a'
+
+            //include only arm64-v8a
+            //include 'arm64-v8a'
+
+            //include only mips
+            //include 'mips'
+
+            //include only x86
+            //include 'x86'
+
+            //include only x86_64
+            //include 'x86_64'
+
+            //include all
+            //include /*'armeabi',*/ 'armeabi-v7a', 'arm64-v8a', 'mips', 'x86', 'x86_64'
+
+            universalApk true
+        }
+    }
+    buildTypes {
+        release {
+            testCoverageEnabled false
+            minifyEnabled true
+            shrinkResources true
+            zipAlignEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+            proguardFile '/Users/damien/Documents/OnelittleAngel/en/onelittleangel/onelittleangel-en-android-java/onelittleangel/proguard-rules.pro'
+        }
+        debug {
+            // Run code coverage reports by default on debug builds.
+            testCoverageEnabled false
+            minifyEnabled false
+            shrinkResources false
+            zipAlignEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            proguardFile '/Users/damien/Documents/OnelittleAngel/en/onelittleangel/onelittleangel-en-android-java/onelittleangel/proguard-rules.pro'
+        }
+    }
+
+    // If you need to add more flavors, consider using flavor dimensions.
+    productFlavors {
+
+        universal {
+            minSdkVersion rootProject.ext.minSdkVersion
+        }
+//
+//        firebasetestlab {
+//          minSdkVersion rootProject.ext.firebaseMinSdkVersion
+//        }
+//
+//        mock {
+//            //applicationIdSuffix = ".mock"
+//            minSdkVersion rootProject.ext.minSdkVersion
+//        }
+//
+//        prodldpi{
+//            minSdkVersion rootProject.ext.minSdkVersion
+//        }
+//
+//        prodldpismall {
+//            minSdkVersion rootProject.ext.minSdkVersion
+//        }
+//
+//        prodldpinormal {
+//            minSdkVersion rootProject.ext.minSdkVersion
+//        }
+//
+//        prodldpilarge {
+//            minSdkVersion rootProject.ext.minSdkVersion
+//        }
+//
+//        prodldpixlarge {
+//            minSdkVersion rootProject.ext.minSdkVersion
+//        }
+//
+//        prodmdpi{
+//            minSdkVersion rootProject.ext.minSdkVersion
+//        }
+//
+//        prodmdpismall {
+//            minSdkVersion rootProject.ext.minSdkVersion
+//        }
+//
+//        prodmdpinormal {
+//            minSdkVersion rootProject.ext.minSdkVersion
+//        }
+//
+//        prodmdpilarge {
+//            minSdkVersion rootProject.ext.minSdkVersion
+//        }
+//
+//        prodmdpixlarge {
+//            minSdkVersion rootProject.ext.minSdkVersion
+//        }
+//
+//        prodhdpi{
+//            minSdkVersion rootProject.ext.minSdkVersion
+//        }
+//
+//        prodhdpismall {
+//            minSdkVersion rootProject.ext.minSdkVersion
+//        }
+//
+//        prodhdpinormal {
+//            minSdkVersion rootProject.ext.minSdkVersion
+//        }
+//
+//        prodhdpilarge {
+//            minSdkVersion rootProject.ext.minSdkVersion
+//        }
+//
+//        prodhdpixlarge {
+//            minSdkVersion rootProject.ext.minSdkVersion
+//        }
+//
+//        prodxhdpi{
+//            minSdkVersion rootProject.ext.minSdkVersion
+//        }
+//
+//        prodxhdpinormal {
+//            minSdkVersion rootProject.ext.minSdkVersion
+//        }
+//
+//        prodxhdpilarge {
+//            minSdkVersion rootProject.ext.minSdkVersion
+//        }
+//
+//        prodxhdpixlarge {
+//            minSdkVersion rootProject.ext.minSdkVersion
+//        }
+//
+//        prodxxhdpi {
+//            minSdkVersion rootProject.ext.minSdkVersion
+//        }
+//
+//        prodxxhdpinormal {
+//            minSdkVersion rootProject.ext.minSdkVersion
+//        }
+//
+//        prodxxhdpilarge {
+//            minSdkVersion rootProject.ext.minSdkVersion
+//        }
+//
+//        prodxxhdpixlarge {
+//            minSdkVersion rootProject.ext.minSdkVersion
+//        }
+//
+//        prodxxxhdpi{
+//            minSdkVersion rootProject.ext.minSdkVersion
+//        }
+//
+//        prodxxxhdpinormal {
+//            minSdkVersion rootProject.ext.minSdkVersion
+//        }
+    }
+
+// Remove mockRelease and firebaseTestLabRelease as it's not needed.
+//    android.variantFilter { variant ->
+//        if (variant.buildType.name.equals('release')
+//                && (variant.getFlavors().get(0).name.equals('mock') /*|| variant.getFlavors().get(0).name.equals('firebaseTestLab')*/
+//        )) {
+//            variant.setIgnore(true);
+//        }
+//    }
+
+    // Always show the result of every unit test, even if it passes.
+    testOptions.unitTests.all {
+        testLogging {
+            events 'passed', 'skipped', 'failed', 'standardOut', 'standardError'
+        }
+    }
+    lintOptions {
+        tasks.lint.enabled false
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+        disable 'RestrictedApi'
+
+    }
+    compileOptions {
+        targetCompatibility 1.8
+        sourceCompatibility 1.8
+    }
+}
+
+
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation "com.android.support:appcompat-v7:$rootProject.ext.supportLibraryVersion"
+    implementation "com.android.support:design:$rootProject.ext.supportLibraryVersion"
+    implementation "com.android.support:support-v4:$rootProject.ext.supportLibraryVersion"
+    implementation "com.android.support:recyclerview-v7:$rootProject.ext.supportLibraryVersion"
+    implementation "com.android.support:cardview-v7:$rootProject.ext.supportLibraryVersion"
+    implementation "com.android.support:palette-v7:$rootProject.ext.supportLibraryVersion"
+    implementation 'com.uncopt:android.justified:1.0'
+
+    implementation "com.google.guava:guava:$rootProject.ext.guavaVersion"
+    implementation "com.nineoldandroids:library:$rootProject.ext.nineoldandroidsVersion"
+    testImplementation "junit:junit:$rootProject.ext.junitVersion"
+    //    I want eventBus
+    implementation "org.greenrobot:eventbus:$rootProject.ext.eventbusVersion"
+    /* rx */
+    implementation "io.reactivex.rxjava2:rxandroid:$rootProject.ext.rxVersion"
+    implementation "io.reactivex.rxjava2:rxjava:$rootProject.ext.rxVersion"
+    implementation 'me.leolin:ShortcutBadger:1.1.18@aar'
+    implementation 'com.github.amitshekhariitbhu.Fast-Android-Networking:android-networking:1.0.4'
+
+    implementation "com.android.support.test.espresso:espresso-idling-resource:$rootProject.ext.espressoVersion"
+    // Dependencies for local unit tests
+
+    //    testCompile "junit:junit:$rootProject.ext.junitVersion"
+    //    testCompile "org.mockito:mockito-all:$rootProject.ext.mockitoVersion"
+    //    testCompile "org.hamcrest:hamcrest-all:$rootProject.ext.hamcrestVersion"
+    //    testCompile "org.powermock:powermock-module-junit4:$rootProject.ext.powerMockito"
+    //    testCompile "org.powermock:powermock-api-mockito:$rootProject.ext.powerMockito"
+    androidTestImplementation "com.squareup.retrofit2:converter-moshi:$rootProject.ext.retrofitVersion"
+    // Android Testing Support Library's runner and rules
+    androidTestImplementation "com.android.support.test:runner:$rootProject.ext.runnerVersion"
+    androidTestImplementation "com.android.support.test:rules:$rootProject.ext.rulesVersion"
+    // Espresso UI Testing dependencies.
+    androidTestImplementation("com.android.support.test.espresso:espresso-core:$rootProject.ext.espressoVersion", {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    //androidTestCompile "com.android.support.test.espresso:espresso-core:$rootProject.ext.espressoVersion"
+    androidTestImplementation "com.android.support.test.espresso:espresso-contrib:$rootProject.ext.espressoVersion"
+    androidTestImplementation "com.android.support.test.espresso:espresso-intents:$rootProject.ext.espressoVersion"
+}
+
+/*
+Resolves dependency versions across test and production APKs, specifically, transitive
+dependencies. This is required since Espresso internally has a dependency on support-annotations.
+*/
+
+configurations.all {
+    resolutionStrategy.force "com.android.support:support-annotations:$rootProject.ext.supportLibraryVersion"
+}
+
+/*
+All direct/transitive dependencies shared between your test and production APKs need to be
+excluded from the test APK! This is necessary because both APKs will contain the same classes. Not
+excluding these dependencies from your test configuration will result in an dex pre-verifier error
+at runtime. More info in this tools bug: (https://code.google.com/p/android/issues/detail?id=192497)
+*/
+configurations.implementation.dependencies.each { compileDependency ->
+    println "Excluding compile dependency: ${compileDependency.getName()}"
+    configurations.androidTestImplementation.dependencies.each { androidTestCompileDependency ->
+        configurations.androidTestImplementation.exclude module: "${compileDependency.getName()}"
+    }
+}
+
+//// map for the version codes
+//ext.versionCodes = ['mdpi':1, 'hdpi':2, 'xhdpi':3, 'xxhdpi':4].withDefault {0}
+//import com.android.build.OutputFile
+//android.applicationVariants.all { variant ->
+//// assign different version code for each output
+//    variant.outputs.each { output ->
+//        output.versionCodeOverride = project.ext.versionCodes.get(output.getFilter(OutputFile.DENSITY)) * 1000000 + android.defaultConfig.versionCode
+//    }
+//}
+
+/*
+ext.additionalDensities = ['xhdpi': ['280'], 'xxhdpi': ['420', '400', '360'], 'xxxhdpi': ['560']]
+import com.android.build.OutputFile
+
+android.productFlavors.all { flavor ->
+
+    android.applicationVariants.all { variant ->
+
+        // assign different version code for each output
+        variant.outputs.each { output ->
+            if (output.getFilter(OutputFile.DENSITY) != null && project.ext.additionalDensities.containsKey(output.getFilter(OutputFile.DENSITY))) {
+                output.processManifest.doFirst {
+
+                    //    android.productFlavors.all { flavor ->
+
+                    def manifestFile = new File(project.buildDir, "intermediates" + File.separator + "manifests" + File.separator + "density" + File.separator + variant.getVariantData().getVariantConfiguration().getFlavorName() + File.separator + output.getFilter(OutputFile.DENSITY) + File.separator + variant.buildType.name + File.separator + "AndroidManifest1.xml")
+                    def manifestText = manifestFile.text
+                    for (String density : project.ext.additionalDensities.get(output.getFilter(OutputFile.DENSITY))) {
+                        manifestText = manifestText.replaceAll("</compatible-screens>", "<screen android:screenSize=\"small\" android:screenDensity=\"${density}\" />\n" +
+                                "<screen android:screenSize=\"large\" android:screenDensity=\"${density}\" />\n" +
+                                "<screen android:screenSize=\"xlarge\" android:screenDensity=\"${density}\" />\n" +
+                                "<screen android:screenSize=\"normal\" android:screenDensity=\"${density}\" />\n </compatible-screens>")
+                    }
+                    manifestFile.text = manifestText
+                    //    }
+                }
+            }
+        }
+    }
+}
+*/

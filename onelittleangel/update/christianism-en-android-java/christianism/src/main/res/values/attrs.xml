@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="SpinKitViewStyle" format="reference" />
+
+    <declare-styleable name="SpinKitView">
+        <attr name="SpinKit_Style">
+            <enum name="RotatingPlane" value="0" />
+            <enum name="DoubleBounce" value="1" />
+            <enum name="Wave" value="2" />
+            <enum name="WanderingCubes" value="3" />
+            <enum name="Pulse" value="4" />
+            <enum name="ChasingDots" value="5" />
+            <enum name="ThreeBounce" value="6" />
+            <enum name="Circle" value="7" />
+            <enum name="CubeGrid" value="8" />
+            <enum name="FadingCircle" value="9" />
+            <enum name="FoldingCube" value="10" />
+            <enum name="RotatingCircle" value="11" />
+            <enum name="MultiplePulse" value="12" />
+            <enum name="PulseRing" value="13" />
+            <enum name="MultiplePulseRing" value="14" />
+        </attr>
+        <attr name="SpinKit_Color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="stl_SmartTabLayout">
+        <attr name="stl_indicatorAlwaysInCenter" format="boolean" />
+        <attr name="stl_indicatorWithoutPadding" format="boolean" />
+        <attr name="stl_indicatorInFront" format="boolean" />
+        <attr name="stl_indicatorInterpolation" format="enum">
+            <enum name="smart" value="0" />
+            <enum name="linear" value="1" />
+        </attr>
+        <attr name="stl_indicatorGravity" format="enum">
+            <enum name="bottom" value="0" />
+            <enum name="top" value="1" />
+            <enum name="center" value="2" />
+        </attr>
+        <attr name="stl_indicatorColor" format="color" />
+        <attr name="stl_indicatorColors" format="reference" />
+        <attr name="stl_indicatorThickness" format="dimension" />
+        <attr name="stl_indicatorWidth" format="dimension">
+            <enum name="auto" value="-1" />
+        </attr>
+        <attr name="stl_indicatorCornerRadius" format="dimension" />
+        <attr name="stl_overlineColor" format="color" />
+        <attr name="stl_overlineThickness" format="dimension" />
+        <attr name="stl_underlineColor" format="color" />
+        <attr name="stl_underlineThickness" format="dimension" />
+        <attr name="stl_dividerColor" format="color" />
+        <attr name="stl_dividerColors" format="reference" />
+        <attr name="stl_dividerThickness" format="dimension" />
+        <attr name="stl_defaultTabBackground" format="reference" />
+        <attr name="stl_defaultTabTextAllCaps" format="boolean" />
+        <attr name="stl_defaultTabTextColor" format="color|reference" />
+        <attr name="stl_defaultTabTextSize" format="dimension" />
+        <attr name="stl_defaultTabTextHorizontalPadding" format="dimension" />
+        <attr name="stl_defaultTabTextMinWidth" format="dimension" />
+        <attr name="stl_customTabTextLayoutId" format="reference" />
+        <attr name="stl_customTabTextViewId" format="reference" />
+        <attr name="stl_distributeEvenly" format="boolean" />
+        <attr name="stl_clickable" format="boolean" />
+        <attr name="stl_titleOffset" format="dimension">
+            <enum name="auto_center" value="-1" />
+        </attr>
+        <attr name="stl_drawDecorationAfterTab" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="card_options">
+        <!-- Layout to build a card. Default value is  @layout/card_base_layout -->
+        <attr name="card_layout_resourceID" format="reference" />
+        <!-- Layout to build a shadow. Default value is @layout/base_shadow_layout -->
+        <attr name="card_shadow_layout_resourceID" format="reference" />
+        <!-- Layout to build a Header. Default value is @layout/base_header_layout -->
+        <attr name="card_header_layout_resourceID" format="reference" />
+        <!-- Layout to build a Thumbnail. Default value is @layout/base_thumbnail_layout -->
+        <attr name="card_thumbnail_layout_resourceID" format="reference" />
+        <!-- Layout used by card in a ListView. Default value is  @layout/list_card_layout -->
+        <attr name="list_card_layout_resourceID" format="reference" />
+        <!-- Layout used by card in a ListView. Default value is  @layout/list_card_layout -->
+        <attr name="list_card_layout_resourceIDs" format="reference" />
+
+    </declare-styleable>
+
+    <declare-styleable name="Carousel">
+        <attr name="itemsCount" format="integer"/>
+        <attr name="selectedItem" format="integer"/>
+
+        <!-- Max theta angle. Theta angle used for calculate distance between items.-->
+        <attr name="maxThetaAngle" format="float"/>
+        <attr name="minAlpha" format="integer"/>
+        <attr name="minQuantity" format="integer"/>
+        <attr name="maxQuantity" format="integer"/>
+        <attr name="maxScrollingVelocity" format="integer"/>
+        <attr name="maxScrollingDistance" format="integer"/>
+        <attr name="scrollToFlingUncertaintyTimeout" format="integer"/>
+        <attr name="animationDuration" format="integer"/>
+        <attr name="panel_height" format="dimension"/>
+        <attr name="panel_width" format="dimension"/>
+    </declare-styleable>
+</resources>

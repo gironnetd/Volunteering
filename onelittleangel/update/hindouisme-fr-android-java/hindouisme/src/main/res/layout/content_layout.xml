@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="right"
+    android:id="@+id/header_container"
+    android:padding="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:id="@+id/faith"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ttt"
+        android:textSize="@dimen/tc_text_size"
+        android:layout_gravity="right|bottom"
+        android:layout_toLeftOf="@+id/count"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"/>
+
+    <TextView
+        android:id="@id/count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/tc_text_size"
+        android:layout_alignBaseline="@id/faith"
+        android:layout_gravity="right|bottom"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true" />
+
+    <RelativeLayout
+        android:id="@+id/right_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/faith"
+        android:layout_gravity="right|top">
+
+        <com.sc.fr.hindouisme.layers.mvp.common.graphics.Arrow
+            android:id="@+id/bolt"
+            android:layout_width="@dimen/arrow_dimension"
+            android:layout_height="@dimen/arrow_dimension"
+            android:tag="SOUTH"
+            android:visibility="gone"/>
+    </RelativeLayout>
+</RelativeLayout>

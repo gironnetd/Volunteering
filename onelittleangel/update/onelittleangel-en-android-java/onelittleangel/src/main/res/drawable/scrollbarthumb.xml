@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:right="@dimen/content_card_margin"> <!-- Your Margin -->
+        <shape>
+            <solid android:color="@color/thumb_scrollbar_color" /> <!-- Your Color -->
+            <corners android:radius="@dimen/scrumbbar_raduis" /> <!-- Your Radius -->
+            <size android:width="@dimen/scrumbbar_width" /> <!-- Your Width -->
+        </shape>
+    </item>
+</layer-list>

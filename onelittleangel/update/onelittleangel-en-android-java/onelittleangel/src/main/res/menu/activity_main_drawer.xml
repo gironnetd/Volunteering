@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_movements"
+            android:icon="@drawable/ic_menu_movements"
+            android:title="@string/movements_nav_title"
+            android:checked="false"
+           />
+        <item
+            android:id="@+id/nav_fonts"
+            android:icon="@drawable/ic_menu_fonts"
+            android:title="@string/typefaces_nav_title" />
+        <!--<item-->
+            <!--android:id="@+id/nav_wallpapers"-->
+            <!--android:icon="@drawable/ic_menu_wallpapers"-->
+            <!--android:title="@string/wallpapers_nav_title" />-->
+        <item
+            android:id="@+id/nav_comments"
+            android:icon="@drawable/ic_menu_comments"
+            android:title="@string/comments_nav_title" />
+        <item
+            android:id="@+id/nav_tips"
+            android:icon="@drawable/ic_menu_tips"
+            android:title="@string/tips_nav_title" />
+        <item
+            android:id="@+id/nav_socialnetworks"
+            android:icon="@drawable/ic_menu_mail"
+            android:title="@string/mail" />
+        <!--<item-->
+            <!--android:id="@+id/nav_playstore"-->
+            <!--android:icon="@drawable/ic_menu_playstore"-->
+            <!--android:title="@string/playstore_nav_title" />-->
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/ic_menu_notifications"
+            android:title="@string/notifications_nav_title" />
+        <!--<item-->
+            <!--android:id="@+id/nav_microphones"-->
+            <!--android:icon="@drawable/ic_menu_microphone"-->
+            <!--android:title="@string/microphone_nav_title" />-->
+    </group>
+
+    <!--<item android:title="Other">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_about_us"-->
+                <!--android:title="@string/contents_title" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_privacy_policy"-->
+                <!--android:title="@string/app_name" />-->
+        <!--</menu>-->
+    <!--</item>-->
+</menu>

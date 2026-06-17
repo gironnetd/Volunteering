@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.sc.fr.bouddhisme.layers.mvp.common.customs.textviews.TextViewNative
+        android:id="@+id/txt_main_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_double_margin"
+        android:textSize="@dimen/title_text_size"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:text="@string/tips_main_menu"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/ic_ab_arrow_previous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:background="@drawable/ic_ab_arrow_previous"/>
+
+        <com.sc.fr.bouddhisme.layers.mvp.common.customs.textviews.TextViewNative
+            android:id="@+id/txt_ab_arrow_previous"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tc_text_size"
+            android:layout_gravity="center_vertical|fill_horizontal"
+            android:textColor="@android:color/black"
+            android:text="@string/tips_ab_arrow_previous"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/ic_menu_tools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:background="@drawable/ic_menu_tools"/>
+
+        <com.sc.fr.bouddhisme.layers.mvp.common.customs.textviews.TextViewNative
+            android:id="@+id/txt_menu_tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tc_text_size"
+            android:layout_gravity="center_vertical|fill_horizontal"
+            android:textColor="@android:color/black"
+            android:text="@string/tips_menu_tools"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/ic_menu_favorites"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:background="@drawable/ic_menu_favorites"/>
+
+        <com.sc.fr.bouddhisme.layers.mvp.common.customs.textviews.TextViewNative
+            android:id="@+id/txt_menu_favorite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tc_text_size"
+            android:layout_gravity="center_vertical|fill_horizontal"
+            android:textColor="@android:color/black"
+            android:text="@string/tips_menu_favorite"/>
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal">-->
+        <!--<ImageView-->
+            <!--android:id="@+id/ic_ab_pictures"-->
+            <!--android:layout_width="30dp"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:layout_marginRight="@dimen/activity_horizontal_margin"-->
+            <!--android:background="@drawable/ic_ab_pictures"/>-->
+
+        <!--<TextViewNative-->
+            <!--android:id="@+id/txt_ab_pictures"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="17sp"-->
+            <!--android:layout_gravity="center_vertical|fill_horizontal"-->
+            <!--android:textColor="@android:color/black"-->
+            <!--android:text="@string/tips_ab_pictures"/>-->
+    <!--</LinearLayout>-->
+
+    <com.sc.fr.bouddhisme.layers.mvp.common.customs.textviews.TextViewNative
+        android:id="@+id/txt_menu_quotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_double_margin"
+        android:textSize="@dimen/title_text_size"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:text="@string/tips_menu_quotes"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"/>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal">-->
+        <!--<ImageView-->
+            <!--android:layout_width="30dp"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:layout_marginRight="@dimen/activity_horizontal_margin"-->
+            <!--android:background="@drawable/ic_ab_pictures"/>-->
+
+        <!--<TextViewNative-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="17sp"-->
+            <!--android:layout_gravity="center_vertical|fill_horizontal"-->
+            <!--android:textColor="@android:color/black"-->
+            <!--android:text="@string/tips_presentation_ab_pictures"/>-->
+    <!--</LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:background="@drawable/ic_ab_arrow_previous"/>
+
+        <com.sc.fr.bouddhisme.layers.mvp.common.customs.textviews.TextViewNative
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tc_text_size"
+            android:layout_gravity="center_vertical|fill_horizontal"
+            android:textColor="@android:color/black"
+            android:text="@string/tips_ab_arrow_previous"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <com.sc.fr.bouddhisme.layers.mvp.common.graphics.Arrow
+            android:id="@+id/arrow_next"
+            android:layout_width="@dimen/arrow_dimension"
+            android:layout_height="@dimen/arrow_dimension"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:tag="WEST"/>
+        <com.sc.fr.bouddhisme.layers.mvp.common.customs.textviews.TextViewNative
+            android:id="@+id/txt_arrow_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tc_text_size"
+            android:layout_gravity="center_vertical|fill_horizontal"
+            android:textColor="@android:color/black"
+            android:text="@string/tips_arrow_next"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:background="@drawable/ic_ab_search"/>
+
+        <com.sc.fr.bouddhisme.layers.mvp.common.customs.textviews.TextViewNative
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tc_text_size"
+            android:layout_gravity="center_vertical|fill_horizontal"
+            android:textColor="@android:color/black"
+            android:text="@string/tips_search"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <com.sc.fr.bouddhisme.layers.mvp.common.graphics.Arrow
+            android:id="@+id/arrow_previous"
+            android:layout_width="@dimen/arrow_dimension"
+            android:layout_height="@dimen/arrow_dimension"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:tag="EAST"/>
+        <com.sc.fr.bouddhisme.layers.mvp.common.customs.textviews.TextViewNative
+            android:id="@+id/txt_arrow_previous"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tc_text_size"
+            android:layout_gravity="center_vertical|fill_horizontal"
+            android:textColor="@android:color/black"
+            android:text="@string/tips_arrow_previous"/>
+    </LinearLayout>
+
+    <com.sc.fr.bouddhisme.layers.mvp.common.customs.textviews.TextViewNative
+        android:id="@+id/txt_menu_biography"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_double_margin"
+        android:textSize="@dimen/title_text_size"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:text="@string/tips_menu_biography"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:background="@drawable/ic_ab_arrow_previous"/>
+
+        <com.sc.fr.bouddhisme.layers.mvp.common.customs.textviews.TextViewNative
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tc_text_size"
+            android:layout_gravity="center_vertical|fill_horizontal"
+            android:textColor="@android:color/black"
+            android:text="@string/tips_ab_arrow_previous"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/ic_presentation_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text=" { 1 } "
+            android:textSize="@dimen/tc_text_size"
+            android:textColor="@android:color/black"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+
+        <com.sc.fr.bouddhisme.layers.mvp.common.customs.textviews.TextViewNative
+            android:id="@+id/txt_presentation_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tc_text_size"
+            android:layout_gravity="center_vertical|top"
+            android:textColor="@android:color/black"
+            android:text="@string/tips_presentation_1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/ic_presentation_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text=" { 2 } "
+            android:textSize="@dimen/tc_text_size"
+
+            android:textColor="@android:color/black"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+        <com.sc.fr.bouddhisme.layers.mvp.common.customs.textviews.TextViewNative
+            android:id="@+id/txt_presentation_2"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tc_text_size"
+            android:layout_gravity="center_vertical|top"
+            android:textColor="@android:color/black"
+            android:text="@string/tips_presentation_2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/ic_presentation_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:text=" { 3 } "
+            android:textSize="@dimen/tc_text_size"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+        <com.sc.fr.bouddhisme.layers.mvp.common.customs.textviews.TextViewNative
+            android:id="@+id/txt_presentation_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tc_text_size"
+            android:layout_gravity="center_vertical|top"
+            android:textColor="@android:color/black"
+            android:text="@string/tips_presentation_3"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/ic_presentation_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:text=" { 4 } "
+            android:textSize="@dimen/tc_text_size"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+        <com.sc.fr.bouddhisme.layers.mvp.common.customs.textviews.TextViewNative
+            android:id="@+id/txt_presentation_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tc_text_size"
+            android:layout_gravity="center_vertical|top"
+            android:textColor="@android:color/black"
+            android:text="@string/tips_presentation_4"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/ic_presentation_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:text=" { 5 } "
+            android:textSize="@dimen/tc_text_size"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+        <com.sc.fr.bouddhisme.layers.mvp.common.customs.textviews.TextViewNative
+            android:id="@+id/txt_presentation_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tc_text_size"
+            android:layout_gravity="center_vertical|top"
+            android:textColor="@android:color/black"
+            android:text="@string/tips_presentation_5"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/ic_presentation_ab_bibliography"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:background="@drawable/ic_st_bibliography_tips"/>
+
+        <com.sc.fr.bouddhisme.layers.mvp.common.customs.textviews.TextViewNative
+            android:id="@+id/txt_presentation_ab_bibliography"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tc_text_size"
+            android:layout_gravity="center_vertical|fill_horizontal"
+            android:textColor="@android:color/black"
+            android:text="@string/tips_presentation_ab_bibliography"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/ic_presentation_ab_pictures"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:background="@drawable/ic_ab_pictures"/>
+
+        <com.sc.fr.bouddhisme.layers.mvp.common.customs.textviews.TextViewNative
+            android:id="@+id/txt_presentation_ab_pictures"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tc_text_size"
+            android:layout_gravity="center_vertical|fill_horizontal"
+            android:textColor="@android:color/black"
+            android:text="@string/tips_presentation_ab_pictures"/>
+    </LinearLayout>
+
+    <com.sc.fr.bouddhisme.layers.mvp.common.customs.textviews.TextViewNative
+        android:id="@+id/txt_menu_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_double_margin"
+        android:textSize="@dimen/title_text_size"
+        android:textColor="@android:color/black"
+        android:text="@string/tips_menu_fab"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/ic_menu_add_favorites"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:background="@drawable/ic_menu_add_favorites"/>
+
+        <com.sc.fr.bouddhisme.layers.mvp.common.customs.textviews.TextViewNative
+            android:id="@+id/txt_menu_add_favorites"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tc_text_size"
+            android:layout_gravity="center_vertical|fill_horizontal"
+            android:textColor="@android:color/black"
+            android:text="@string/tips_menu_add_favorite"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/ic_menu_remove_favorites"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:background="@drawable/ic_menu_remove_favorites"/>
+
+        <com.sc.fr.bouddhisme.layers.mvp.common.customs.textviews.TextViewNative
+            android:id="@+id/txt_menu_remove_favorites"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tc_text_size"
+            android:layout_gravity="center_vertical|fill_horizontal"
+            android:textColor="@android:color/black"
+            android:text="@string/tips_menu_remove_favorites"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/ic_fab_text_increase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:background="@drawable/ic_fab_text_increase"/>
+
+        <com.sc.fr.bouddhisme.layers.mvp.common.customs.textviews.TextViewNative
+            android:id="@+id/txt_fab_text_increase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tc_text_size"
+            android:layout_gravity="center_vertical|fill_horizontal"
+            android:textColor="@android:color/black"
+            android:text="@string/tips_fab_text_increase"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/ic_fab_text_decrease"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:background="@drawable/ic_fab_text_decrease"/>
+
+        <com.sc.fr.bouddhisme.layers.mvp.common.customs.textviews.TextViewNative
+            android:id="@+id/txt_fab_text_decrease"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tc_text_size"
+            android:layout_gravity="center_vertical|fill_horizontal"
+            android:textColor="@android:color/black"
+            android:text="@string/tips_fab_text_decrease"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/ic_fb_mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:background="@drawable/ic_fb_mail"/>
+
+        <com.sc.fr.bouddhisme.layers.mvp.common.customs.textviews.TextViewNative
+            android:id="@+id/txt_fb_mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tc_text_size"
+            android:layout_gravity="center_vertical|fill_horizontal"
+            android:textColor="@android:color/black"
+            android:text="@string/tips_fb_mail"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/ic_fab_fonts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:background="@drawable/ic_fab_fonts"/>
+
+        <com.sc.fr.bouddhisme.layers.mvp.common.customs.textviews.TextViewNative
+            android:id="@+id/txt_fab_fonts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tc_text_size"
+            android:layout_gravity="center_vertical|fill_horizontal"
+            android:textColor="@android:color/black"
+            android:text="@string/tips_fab_fonts"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/ic_fab_microphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:background="@drawable/ic_fab_microphone"/>
+
+        <com.sc.fr.bouddhisme.layers.mvp.common.customs.textviews.TextViewNative
+            android:id="@+id/txt_fab_microphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tc_text_size"
+            android:layout_gravity="center_vertical|fill_horizontal"
+            android:textColor="@android:color/black"
+            android:text="@string/tips_fab_microphone"/>
+    </LinearLayout>
+</LinearLayout>

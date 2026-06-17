@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/fonts_dialog_row"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"              android:layout_margin="@dimen/action_bar_margin"
+              android:layout_centerVertical="true">
+
+    <com.sc.en.philosophy.layers.mvp.common.customs.textviews.TextViewNative
+        android:id="@+id/font_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:text="@string/app_name"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/tc_text_size"/>
+
+    <ImageView
+        android:id="@+id/font_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|end|center_vertical"
+        android:clickable="false"
+        android:src="@drawable/ic_cb_fonts"/>
+
+</FrameLayout>

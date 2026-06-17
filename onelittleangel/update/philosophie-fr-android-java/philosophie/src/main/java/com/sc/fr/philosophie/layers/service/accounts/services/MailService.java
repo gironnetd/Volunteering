@@ -1,0 +1,81 @@
+package com.sc.fr.philosophie.layers.service.accounts.services;
+
+import com.sc.fr.philosophie.injector.Injector;
+import com.sc.fr.philosophie.layers.dao.accounts.AccountsDaoInterface;
+import com.sc.fr.philosophie.layers.service.MotherBusinessService;
+import com.sc.fr.philosophie.layers.service.ServiceManagerInterface;
+import com.sc.fr.philosophie.layers.service.accounts.interfaces.MailServiceInterface;
+import com.sc.fr.philosophie.transverse.orms.realm.models.Account;
+
+import io.reactivex.Observable;
+
+public class MailService extends MotherBusinessService implements MailServiceInterface {
+
+  private static final String TAG = "MailService";
+
+  /**
+   * The quotes to display (the cache)
+   */
+  private Account mailAccount = null;
+
+  /**
+   *
+   */
+  private AccountsDaoInterface accountsDaoInterface = null;
+
+
+  /**
+   * Constructor
+   *
+   * @param srvManager
+   */
+  public MailService(ServiceManagerInterface srvManager) {
+    super(srvManager);
+  }
+
+  @Override
+  public void onDestroy() {
+
+  }
+
+  @Override
+  public Observable<Account> loadMailAccountAsync() {
+
+    /*
+    To know if tha data has to be reloaded
+   */
+    boolean reload = false;
+    if (mailAccount != null) {
+      reload = true;
+    }
+
+    // use the caching mechanism
+    if (reload) {
+      //send send back the answer using eventBus
+      //  postQuotesByIdAuthorDataLoadedEvent(quotesByIdAuthorList.get(idAuthor),idAuthor);
+      return Observable.just(mailAccount);
+    } else {
+      // then launch it
+      return loadMailAccountSync();
+    }
+  }
+
+  private Observable<Account> loadMailAccountSync() {
+    accountsDaoInterface = Injector.getDaoManager().getAccountsDao();
+    mailAccount = accountsDaoInterface.loadAccountByType("mail");
+    accountsDaoInterface = null;
+    return Observable.just(mailAccount);
+  }
+
+  @Override
+  public Observable<Account> updateMaiAccountAsync(String identifier, String password) {
+    return updateMaiAccountSync(identifier, password);
+  }
+
+  private Observable<Account> updateMaiAccountSync(String identifier, String password) {
+    accountsDaoInterface = Injector.getDaoManager().getAccountsDao();
+    mailAccount = accountsDaoInterface.updateAccountByType("mail", identifier, password);
+    accountsDaoInterface = null;
+    return Observable.just(mailAccount);
+  }
+}

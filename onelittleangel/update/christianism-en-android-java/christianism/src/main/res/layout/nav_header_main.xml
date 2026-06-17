@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/view_container"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:gravity="top"
+    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img_header_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/visagessaints3_3"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <ImageView
+            android:id="@+id/img_profile"
+            android:layout_width="@dimen/profile_dimension"
+            android:layout_height="@dimen/profile_dimension"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/earth"/>
+
+        <com.sc.en.christianism.layers.mvp.common.customs.textviews.TextViewNative
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/tc_text_size"
+            android:textStyle="bold"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"/>
+
+        <com.sc.en.christianism.layers.mvp.common.customs.textviews.TextViewNative
+            android:id="@+id/website"
+            android:textSize="@dimen/tc_text_size"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

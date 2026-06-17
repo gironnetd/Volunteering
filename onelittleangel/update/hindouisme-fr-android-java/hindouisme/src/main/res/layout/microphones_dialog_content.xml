@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_centerVertical="true"
+    android:padding="@dimen/microphone_card_padding"
+    android:layout_gravity="center_horizontal"
+    android:layout_centerHorizontal="true">
+
+    <ImageView
+        android:id="@+id/ic_microphone_previous"
+        android:layout_width="@dimen/microphone_icon_dimension"
+        android:layout_height="@dimen/microphone_icon_dimension"
+        android:src="@drawable/ic_menu_previous"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+
+    <ImageView
+        android:id="@+id/ic_microphone_stop"
+        android:layout_width="@dimen/microphone_icon_dimension"
+        android:layout_height="@dimen/microphone_icon_dimension"
+        android:src="@drawable/ic_menu_stop"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+
+    <ImageView
+        android:id="@+id/ic_microphone_pause"
+        android:layout_width="@dimen/microphone_icon_dimension"
+        android:layout_height="@dimen/microphone_icon_dimension"
+        android:src="@drawable/ic_menu_pause"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+
+    <ImageView
+        android:id="@+id/ic_microphone_play"
+        android:layout_width="@dimen/microphone_icon_dimension"
+        android:layout_height="@dimen/microphone_icon_dimension"
+        android:src="@drawable/ic_menu_play"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+
+    <ImageView
+        android:id="@+id/ic_microphone_next"
+        android:layout_width="@dimen/microphone_icon_dimension"
+        android:layout_height="@dimen/microphone_icon_dimension"
+        android:src="@drawable/ic_menu_next"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+</LinearLayout>

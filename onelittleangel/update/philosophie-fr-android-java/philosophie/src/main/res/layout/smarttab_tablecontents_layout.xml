@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sc.fr.philosophie.layers.mvp.common.layouts.smarttablayouts.SmartTabLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/view_pager_tab"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/stl_height"
+    android:background="@android:color/transparent"
+    android:clipToPadding="false"
+    app:stl_defaultTabTextColor="@android:color/black"
+    app:stl_defaultTabTextSize="@dimen/stl_text_size"
+    app:stl_defaultTabTextHorizontalPadding="@dimen/tc_stl_horizontal_padding"
+    app:stl_dividerColor="@android:color/transparent"
+    app:stl_dividerThickness="0.0dip"
+    app:stl_indicatorCornerRadius="@dimen/tc_stl_indicator_corner_radius"
+    app:stl_indicatorGravity="center"
+    app:stl_indicatorInterpolation="smart"
+    app:stl_indicatorThickness="36.0dip"
+    app:stl_underlineColor="@android:color/transparent"
+    app:stl_underlineThickness="0.0dip"/>

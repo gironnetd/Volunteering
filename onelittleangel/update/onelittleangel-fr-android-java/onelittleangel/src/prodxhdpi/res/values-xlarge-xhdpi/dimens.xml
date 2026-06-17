@@ -1,0 +1,85 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="stl_text_size">24sp</dimen>
+    <dimen name="stl_height">90dp</dimen>
+    <dimen name="stl_horizontal_padding">16dp</dimen>
+    <dimen name="stl_margin_top">165dp</dimen>
+    <dimen name="tc_text_size">33sp</dimen>
+    <dimen name="tc_default_size">28sp</dimen>
+    <dimen name="tc_padding_position_1">90dp</dimen>
+    <dimen name="tc_padding_position_2">180dp</dimen>
+    <dimen name="tc_fragment_padding">40dp</dimen>
+
+    <dimen name="tc_stl_horizontal_padding">12dp</dimen>
+    <item name="tc_stl_divider_thickness" type="dimen" format="float">1.2</item>
+    <dimen name="title_text_size">45sp</dimen>
+    <dimen name="title_margin_top">41dp</dimen>
+    <dimen name="tc_stl_indicator_corner_radius">28dp</dimen>
+    <dimen name="home_page_name_text_size">26sp</dimen>
+    <dimen name="default_text_size">29sp</dimen>
+    <dimen name="arrow_dimension">50dp</dimen>
+    <dimen name="grid_image_dimension">170dp</dimen>
+    <dimen name="gridview_column_width">180dp</dimen>
+    <dimen name="content_grid_view_margin_top">145dp</dimen>
+
+    <dimen name="nav_header_width">399dp</dimen>
+    <dimen name="nav_header_height">210dp</dimen>
+    <dimen name="profile_dimension">95dp</dimen>
+    <dimen name="mail_textinput_layout_height">90dp</dimen>
+    <dimen name="navigation_drawer_text_size">35dp</dimen>
+    <!--<dimen name="settings_movements_text_size">20sp</dimen>-->
+    <dimen name="settings_stl_height">75dp</dimen>
+    <dimen name="settings_stl_icon_padding">5dp</dimen>
+    <dimen name="design_navigation_icon_size">46dp</dimen>
+    <dimen name="microphone_icon_dimension">60dp</dimen>
+    <dimen name="microphone_card_padding">@dimen/activity_horizontal_margin</dimen>
+
+    <dimen name="biography_stl_text_padding_top_bottom">10dp</dimen>
+    <dimen name="biography_stl_text_padding_left_right">2dp</dimen>
+    <dimen name="biography_stl_height">70dp</dimen>
+    <dimen name="biography_stl_indicator_corner_radius">28dp</dimen>
+    <item name="biography_stl_divider_thickness" type="dimen" format="float">1.3</item>
+    <dimen name="biography_fab_margin_bottom">17dp</dimen>
+
+    <dimen name="content_card_margin">40dp</dimen>
+    <dimen name="image_comment_size">70dp</dimen>
+    <dimen name="wallpappers_text_size">26sp</dimen>
+
+    <item name="mdtp_circle_radius_multiplier" format="float" type="string" translatable="false">0.82</item>
+    <item name="mdtp_circle_radius_multiplier_24HourMode" format="float" type="string" translatable="false">0.85</item>
+    <item name="mdtp_selection_radius_multiplier" format="float" type="string" translatable="false">0.16</item>
+    <item name="mdtp_ampm_circle_radius_multiplier" format="float" type="string" translatable="false">0.22</item>
+    <item name="mdtp_numbers_radius_multiplier_normal" format="float" type="string" translatable="false">0.81</item>
+    <item name="mdtp_numbers_radius_multiplier_inner" format="float" type="string" translatable="false">0.60</item>
+    <item name="mdtp_numbers_radius_multiplier_outer" format="float" type="string" translatable="false">0.83</item>
+    <item name="mdtp_text_size_multiplier_normal" format="float" type="string" translatable="false">0.12</item>
+    <item name="mdtp_text_size_multiplier_inner" format="float" type="string" translatable="false">0.11</item>
+    <item name="mdtp_text_size_multiplier_outer" format="float" type="string" translatable="false">0.08</item>
+
+    <dimen name="mdtp_time_label_margin_top">8dp</dimen>
+
+    <dimen name="mdtp_time_label_size">64dp</dimen>
+    <dimen name="mdtp_time_label_subscript_size">30dp</dimen>
+    <dimen name="mdtp_time_label_shift">-12dp</dimen>
+    <dimen name="mdtp_extra_time_label_margin">-30dp</dimen>
+    <dimen name="mdtp_ampm_label_size">26dp</dimen>
+    <dimen name="mdtp_ampm_left_padding">10dip</dimen>
+    <dimen name="mdtp_separator_padding">6dip</dimen>
+    <dimen name="mdtp_header_height">136dip</dimen>
+    <dimen name="mdtp_picker_dimen">410dip</dimen>
+    <dimen name="mdtp_time_picker_height">450dip</dimen>
+
+    <dimen name="mdtp_date_picker_component_width">270dp</dimen>
+    <dimen name="mdtp_date_picker_header_width">@dimen/mdtp_date_picker_component_width</dimen>
+    <dimen name="mdtp_date_picker_title_height">30dp</dimen>
+    <dimen name="mdtp_date_picker_title_padding">9dp</dimen>
+
+    <dimen name="mdtp_time_picker_header_text_size">12dp</dimen>
+
+    <dimen name="mdtp_material_button_height">88dp</dimen>
+    <dimen name="mdtp_material_button_textsize">24sp</dimen>
+    <dimen name="mdtp_material_button_minwidth">64dp</dimen>
+    <dimen name="mdtp_material_button_textpadding_horizontal">8dp</dimen>
+
+</resources>

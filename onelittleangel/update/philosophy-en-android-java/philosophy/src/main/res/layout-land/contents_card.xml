@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.sc.en.philosophy.layers.mvp.common.layouts.linearlayouts.PersonalLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/contents_card_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_contents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/content_card_margin"
+        android:layout_marginStart="@dimen/content_card_margin"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/content_card_margin"
+        android:layout_marginEnd="@dimen/content_card_margin"
+        android:layout_marginBottom="@dimen/action_bar_padding"
+        card:cardBackgroundColor="@android:color/white"
+        card:cardCornerRadius="2dp"
+        card:cardElevation="@dimen/card_elevation">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_horizontal_margin">
+
+            <!--<include layout="@layout/contents_text"/>-->
+            <!--<com.sc.en.onelittleangel.layers.mvp.common.customs.textviews.ContentTextViewNativeBiography-->
+            <!--android:id="@+id/textview"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="@dimen/activity_horizontal_margin"-->
+            <!--android:layout_gravity="center_horizontal|top"-->
+            <!--android:textColor="@android:color/black"-->
+            <!--android:text="@string/adding_to_favorites_ask"-->
+            <!--android:textSize="20sp"/>-->
+
+            <LinearLayout
+                android:id="@+id/ll_txt_view"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin">
+            </LinearLayout>
+            <com.sc.en.philosophy.layers.mvp.common.customs.textviews.ContentTextViewNativeBiography
+                android:id="@+id/source"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="@string/app_name"
+                android:layout_gravity="center_horizontal|bottom"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</com.sc.en.philosophy.layers.mvp.common.layouts.linearlayouts.PersonalLinearLayout>

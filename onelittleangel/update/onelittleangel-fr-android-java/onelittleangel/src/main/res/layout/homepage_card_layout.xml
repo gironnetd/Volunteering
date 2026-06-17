@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardhomeviewinside"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical">
+
+    <com.sc.fr.onelittleangel.layers.mvp.common.customs.textviews.TextViewNative
+        android:id="@+id/homepage_card_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_smarttab_horizontal_magin"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/title_text_size"
+        android:layout_gravity="center_horizontal"/>
+    <com.sc.fr.onelittleangel.layers.mvp.common.customs.textviews.TextViewNative
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/home_page_name_text_size"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/black"/>
+    <ImageView
+        android:id="@+id/picture_of_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"/>
+    <com.sc.fr.onelittleangel.layers.mvp.common.customs.textviews.ContentTextViewNativeBiography
+        android:id="@+id/biography_of_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:textColor="@android:color/black"
+        android:textSize="22sp" />
+    <com.sc.fr.onelittleangel.layers.mvp.common.customs.textviews.ContentTextViewNativeBiography
+        android:id="@+id/quote_of_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:gravity="center_horizontal"/>
+    <com.sc.fr.onelittleangel.layers.mvp.common.customs.textviews.TextViewNative
+        android:id="@+id/link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:textSize="@dimen/home_page_name_text_size"
+        android:layout_gravity="right" />
+</LinearLayout>

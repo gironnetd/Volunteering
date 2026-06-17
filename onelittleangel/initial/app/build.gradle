@@ -1,0 +1,44 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+	//namespace = "com.sc.fr.onelittleangel.bouddhisme"
+
+    compileSdkVersion 27
+    //buildToolsVersion 28.0.2
+
+    defaultConfig {
+        applicationId 'com.sc.fr.onelittleangel.bouddhisme'
+        minSdkVersion 16
+        //noinspection ExpiringTargetSdkVersion,ExpiredTargetSdkVersion
+        //targetSdkVersion 20
+        versionCode 4
+        versionName "1.3"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        resConfigs "en", "fr"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    //buildToolsVersion '36.0.0'
+}
+
+dependencies {
+    // TODO: dependencies
+    implementation("com.android.support:support-v4:27.1.1")
+    // Source: https://mvnrepository.com/artifact/com.google.analytics.tracking.android/analytics-v2
+    //implementation("com.google.analytics.tracking.android:analytics:2.0.0")
+}

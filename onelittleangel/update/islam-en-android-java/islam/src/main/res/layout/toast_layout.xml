@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:layout_gravity="center_horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    card:cardBackgroundColor="@android:color/white"
+    card:cardCornerRadius="2.0dip"
+     card:cardElevation="@dimen/card_elevation"
+     card:contentPadding="@dimen/activity_vertical_margin"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card="http://schemas.android.com/apk/res-auto">
+
+    <com.sc.en.islam.layers.mvp.common.customs.textviews.TextViewNative
+        android:id="@+id/toast_txtn"
+        android:textSize="@dimen/tc_text_size"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/doubleclick_exit" />
+</android.support.v7.widget.CardView>

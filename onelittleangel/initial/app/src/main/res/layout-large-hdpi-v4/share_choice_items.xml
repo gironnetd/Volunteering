@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sc.fr.onelittleangel.bouddhisme.views.CheckableRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="10dp">
+    <ImageView
+        android:id="@+id/singleitemCheckBox"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+    <TextView
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:id="@+id/singleitemId"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"/>
+</com.sc.fr.onelittleangel.bouddhisme.views.CheckableRelativeLayout>

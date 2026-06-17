@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+Copyright 2014 The Android Open Source Project
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/starting_windows</item>
+        <!--<item name="android:actionBarStyle">@style/MyTheme.ActionBar</item>-->
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="NullTheme" parent="AppTheme">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <!--<item name="android:windowDisablePreview">true</item>-->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <!--<style name="MainAppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+        <!--<item name="android:windowBackground">@drawable/starting_windows</item>-->
+        <!--&lt;!&ndash;<item name="android:actionBarStyle">@style/MyTheme.ActionBar</item>&ndash;&gt;-->
+        <!--<item name="android:windowContentOverlay">@null</item>-->
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+        <!--<item name="android:background">@android:color/transparent</item>-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+    <!--</style>-->
+
+    <style name="CustomTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:textSelectHandleLeft">@drawable/zero_px_transparent</item>
+        <item name="android:textSelectHandleRight">@drawable/zero_px_transparent</item>
+        <item name="android:textSelectHandle">@drawable/zero_px_transparent</item>
+        <item name="colorControlNormal">@color/colorAccent</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+    </style>
+
+    <style name="Drawer" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">#00000000</item>
+    </style>
+
+    <style name="slideUpAndDown">
+        <item name="android:windowEnterAnimation">@anim/alpha_in</item>
+        <item name="android:windowExitAnimation">@anim/alpha_out</item>
+    </style>
+
+    <style name="myDialogSlideUpAndDown" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!--<item name="android:backgroundDimEnabled">false</item>-->
+        <item name="android:windowAnimationStyle">@style/slideUpAndDown</item>
+        <!--<item name="android:windowIsFloating">false</item>-->
+        <!--<item name="android:windowContentOverlay">@null</item>-->
+        <!--<item name="android:windowTitleStyle">@null</item>-->
+        <!--<item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>-->
+        <!--<item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>-->
+        <!--<item name="android:backgroundDimEnabled">false</item>-->
+        <!--<item name="android:background">#00ffffff</item>-->
+    </style>
+
+    <style name="TextLabel" parent="TextAppearance.Design.Hint">
+        <item name="android:textSize">@dimen/tc_text_size</item>
+        <item name="android:textColor">#007098</item>
+    </style>
+
+    <style name="error_appearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#007098</item>
+        <item name="android:textSize">@dimen/tc_text_size</item>
+    </style>
+
+    <attr name="mdtp_theme_dark" format="boolean">false</attr>
+
+    <style name="mdtp_time_label">
+        <item name="android:textSize">@dimen/mdtp_time_label_size</item>
+        <item name="android:textColor">@color/mdtp_numbers_text_color</item>
+    </style>
+
+    <style name="mdtp_time_label_small" parent="mdtp_time_label">
+        <item name="android:textSize">@dimen/mdtp_time_label_subscript_size</item>
+        <item name="android:layout_marginBottom">@dimen/mdtp_time_label_shift</item>
+    </style>
+
+    <style name="mdtp_ampm_label">
+        <item name="android:textSize">@dimen/mdtp_ampm_label_size</item>
+        <!--<item name="android:textAllCaps">true</item>-->
+        <!--<item name="android:textColor">@color/mdtp_ampm_text_color</item>-->
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="mdtp_day_of_week_label_condensed" />
+
+    <style name="mdtp_ActionButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/mdtp_material_button_height</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="mdtp_ActionButton.Text" >
+        <item name="android:textSize">@dimen/mdtp_material_button_textsize</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/mdtp_material_button_background</item>
+        <item name="android:minWidth">@dimen/mdtp_material_button_minwidth</item>
+        <item name="android:paddingLeft">@dimen/mdtp_material_button_textpadding_horizontal</item>
+        <item name="android:paddingRight">@dimen/mdtp_material_button_textpadding_horizontal</item>
+        <item name="android:textColor">@color/mdtp_button_color</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+</resources>

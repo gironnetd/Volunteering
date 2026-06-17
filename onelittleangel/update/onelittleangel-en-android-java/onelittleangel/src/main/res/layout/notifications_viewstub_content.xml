@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+    <FrameLayout
+        android:id="@+id/fl_receive_notifications_ask"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <com.sc.en.onelittleangel.layers.mvp.common.customs.textviews.TextViewNative
+        android:id="@+id/txt_receive_notifications"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:textSize="@dimen/tc_text_size"
+        android:clickable="true"
+        android:textColor="@android:color/black"
+        android:text="@string/receive_notifications_ask"/>
+
+    <ImageView
+        android:id="@+id/iv_receive_notifications"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:layout_gravity="right|center_vertical"
+        android:src="@drawable/ic_cb_fonts"/>
+    </FrameLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_notifications"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"/>
+</LinearLayout>

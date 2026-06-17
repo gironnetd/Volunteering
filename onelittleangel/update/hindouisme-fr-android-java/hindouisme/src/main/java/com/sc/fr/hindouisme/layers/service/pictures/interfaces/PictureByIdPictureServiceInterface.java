@@ -1,0 +1,12 @@
+package com.sc.fr.hindouisme.layers.service.pictures.interfaces;
+
+import com.sc.fr.hindouisme.layers.service.MotherBusinessServiceInterface;
+
+public interface PictureByIdPictureServiceInterface extends MotherBusinessServiceInterface {
+
+  /**
+   *
+   * @param idPicture
+   */
+  void loadPictureByIdPictureAsync(int idPicture);
+}

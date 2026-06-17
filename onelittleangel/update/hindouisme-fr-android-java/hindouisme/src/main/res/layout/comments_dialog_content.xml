@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:layout_gravity="fill_horizontal">
+    <com.sc.fr.hindouisme.layers.mvp.common.customs.textviews.TextViewNative
+        android:id="@+id/txt_add_to_favorites_ask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:text="@string/comments_playstore_ask"
+        android:textSize="@dimen/tc_text_size"
+        android:textColor="@android:color/black"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_add_to_favorites_ask"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:id="@+id/confirm_go_to_comments_playstore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm"
+
+            android:textStyle="bold"
+            android:textSize="@dimen/tc_text_size"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="50dp"
+            />
+        <TextView
+            android:id="@+id/cancel_go_to_comments_playstore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:textStyle="bold"
+            android:textSize="@dimen/tc_text_size"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+    </LinearLayout>
+</RelativeLayout>
