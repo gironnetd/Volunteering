@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <string name="authors.quotes">Quotes</string>
+    <string name="authors.biography">Biography</string>
+    <string name="authors.pictures">Images</string>
+    <string name="authors.centuries">Centuries</string>
+    <string name="authors.faiths">Faiths</string>
+</resources>

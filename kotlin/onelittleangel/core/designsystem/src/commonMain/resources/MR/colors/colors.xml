@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- format: #RRGGBB[AA] or 0xRRGGBB[AA] or RRGGBB[AA] where [AA] - optional -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="error0">#000000</color>
+    <color name="error5">#2C0001</color>
+    <color name="error10">#410002</color>
+    <color name="error20">#690005</color>
+    <color name="error30">#93000A</color>
+    <color name="error40">#BA1A1A</color>
+    <color name="error50">#DE3730</color>
+    <color name="error60">#FF5449</color>
+    <color name="error70">#FF897D</color>
+    <color name="error80">#FFB4AB</color>
+    <color name="error90">#FFDAD6</color>
+    <color name="error95">#FFEDEA</color>
+    <color name="error99">#FFFBFF</color>
+    <color name="error100">#FFFFFF</color>
+
+    <color name="neutral0">#000000</color>
+    <color name="neutral5">#0F1113</color>
+    <color name="neutral10">#191C1E</color>
+    <color name="neutral20">#2E3133</color>
+    <color name="neutral30">#454749</color>
+    <color name="neutral40">#5C5F61</color>
+    <color name="neutral50">#757779</color>
+    <color name="neutral60">#8F9193</color>
+    <color name="neutral70">#AAABAD</color>
+    <color name="neutral80">#C5C6C9</color>
+    <color name="neutral90">#E1E2E5</color>
+    <color name="neutral95">#F0F1F3</color>
+    <color name="neutral99">#FBFCFE</color>
+    <color name="neutral100">#FFFFFF</color>
+
+    <color name="neutralVariant0">#000000</color>
+    <color name="neutralVariant5">#0A1215</color>
+    <color name="neutralVariant10">#151D21</color>
+    <color name="neutralVariant20">#2A3136</color>
+    <color name="neutralVariant30">#40484D</color>
+    <color name="neutralVariant40">#585F64</color>
+    <color name="neutralVariant50">#71787D</color>
+    <color name="neutralVariant60">#8A9297</color>
+    <color name="neutralVariant70">#A5ACB2</color>
+    <color name="neutralVariant80">#A5ACB2</color>
+    <color name="neutralVariant90">#DCE3E9</color>
+    <color name="neutralVariant95">#EBF2F8</color>
+    <color name="neutralVariant99">#FBFCFF</color>
+    <color name="neutralVariant100">#FFFFFF</color>
+
+    <color name="primary0">#000000</color>
+    <color name="primary5">#00131D</color>
+    <color name="primary10">#001E2B</color>
+    <color name="primary20">#003548</color>
+    <color name="primary30">#004D67</color>
+    <color name="primary40">#006688</color>
+    <color name="primary50">#0080AA</color>
+    <color name="primary60">#1D9BCB</color>
+    <color name="primary70">#48B6E7</color>
+    <color name="primary80">#75D1FF</color>
+    <color name="primary90">#C2E8FF</color>
+    <color name="primary95">#E2F3FF</color>
+    <color name="primary99">#FAFBFF</color>
+    <color name="primary100">#FFFFFF</color>
+
+    <color name="secondary0">#000000</color>
+    <color name="secondary5">#1C0700</color>
+    <color name="secondary10">#2B0A00</color>
+    <color name="secondary20">#3B0900</color>
+    <color name="secondary30">#5F1500</color>
+    <color name="secondary40">#882200</color>
+    <color name="secondary50">#B02F05</color>
+    <color name="secondary60">#D3471F</color>
+    <color name="secondary70">#F66036</color>
+    <color name="secondary80">#FF8B6B</color>
+    <color name="secondary90">#FFB5A1</color>
+    <color name="secondary95">#FFDBD1</color>
+    <color name="secondary99">#FFFBFF</color>
+    <color name="secondary100">#FFFFFF</color>
+
+    <color name="tertiary0">#000000</color>
+    <color name="tertiary5">#220004</color>
+    <color name="tertiary10">#2B0003</color>
+    <color name="tertiary20">#470008</color>
+    <color name="tertiary30">#660001</color>
+    <color name="tertiary40">#880011</color>
+    <color name="tertiary50">#AA0016</color>
+    <color name="tertiary60">#CC1C2B</color>
+    <color name="tertiary70">#E84752</color>
+    <color name="tertiary80">#FF757C</color>
+    <color name="tertiary90">#FFC1C2</color>
+    <color name="tertiary95">#FFE2E3</color>
+    <color name="tertiary99">#FFFAFA</color>
+    <color name="tertiary100">#FFFFFF</color>
+
+    <color name="quaternary0">#FFFFFF</color>
+    <color name="quaternary5">#001905</color>
+    <color name="quaternary10">#002202</color>
+    <color name="quaternary20">#003906</color>
+    <color name="quaternary30">#00530D</color>
+    <color name="quaternary40">#006E14</color>
+    <color name="quaternary50">#008B1C</color>
+    <color name="quaternary60">#00A825</color>
+    <color name="quaternary70">#1DC634</color>
+    <color name="quaternary80">#75FF7B</color>
+    <color name="quaternary90">#C3FFC1</color>
+    <color name="quaternary95">#E8FFE2</color>
+    <color name="quaternary99">#FAFFFB</color>
+    <color name="quaternary100">#FEFFFF</color>
+
+    <color name="background">#FFFFFF</color>
+
+    <color name="onBackground">
+        <light>0xB92743FF</light>
+        <dark>7CCFEEFF</dark>
+    </color>
+
+    <color name="error">
+        <light>#BA1A1A</light>
+        <dark>#FFB4AB</dark>
+    </color>
+
+    <color name="errorContainer">
+        <light>#FFDAD6</light>
+        <dark>#93000A</dark>
+    </color>
+
+    <color name="inverseOnSurface">
+        <light>#F0F1F3</light>
+        <dark>#FFFFFF</dark>
+    </color>
+
+    <color name="inverseSurface">
+        <light>#2E3133</light>
+        <dark>#E1E2E5</dark>
+    </color>
+
+    <color name="onError">
+        <light>#FFFFFF</light>
+        <dark>#690005</dark>
+    </color>
+
+    <color name="onErrorContainer">
+        <light>#410002</light>
+        <dark>#FFDAD6</dark>
+    </color>
+
+    <color name="surface">
+        <light>#FBFCFE</light>
+        <dark>#191C1E</dark>
+    </color>
+
+    <color name="surfaceTint">
+        <light>#006688</light>
+        <dark>#76D1FF</dark>
+    </color>
+
+    <color name="surfaceVariant">
+        <light>#DCE3E9</light>
+        <dark>#40484D</dark>
+    </color>
+
+    <color name="onSurface">
+        <light>#191C1E</light>
+        <dark>#E1E2E5</dark>
+    </color>
+
+    <color name="onSurfaceVariant">
+        <light>#40484D</light>
+        <dark>#C0C7CD</dark>
+    </color>
+
+    <color name="scrim">
+        <light>#FFFFFF</light>
+        <dark>#FFFFFF</dark>
+    </color>
+
+    <color name="outline">
+        <light>#71787D</light>
+        <dark>#8A9297</dark>
+    </color>
+
+    <color name="outlineVariant">
+        <light>#FFFFFF</light>
+        <dark>#FFFFFF</dark>
+    </color>
+
+    <color name="shadow">
+        <light>#000000</light>
+        <dark>#000000</dark>
+    </color>
+
+    <color name="primary">
+        <light>#006688</light>
+        <dark>#75D1FF</dark>
+    </color>
+    <color name="primaryContainer">
+        <light>#C2E8FF</light>
+        <dark>#00131D</dark>
+    </color>
+    <color name="onPrimary">
+        <light>#FFFFFF</light>
+        <dark>#003548</dark>
+    </color>
+    <color name="onPrimaryContainer">
+        <light>#001E2B</light>
+        <dark>#E2F3FF</dark>
+    </color>
+    <color name="inversePrimary">
+        <light>#76D1FF</light>
+        <dark>#006688</dark>
+    </color>
+
+    <color name="secondary">
+        <light>#882200</light>
+        <dark>#FF8B6B</dark>
+    </color>
+    <color name="secondaryContainer">
+        <light>#FFB5A1</light>
+        <dark>#1C0700</dark>
+    </color>
+    <color name="onSecondary">
+        <light>#FFFFFF</light>
+        <dark>#3B0900</dark>
+    </color>
+    <color name="onSecondaryContainer">
+        <light>#2B0A00</light>
+        <dark>#FFDBD1</dark>
+    </color>
+
+    <color name="tertiary">
+        <light>#880011</light>
+        <dark>#FF757C</dark>
+    </color>
+    <color name="tertiaryContainer">
+        <light>#FFC1C2</light>
+        <dark>#220004</dark>
+    </color>
+    <color name="onTertiary">
+        <light>#FFFFFF</light>
+        <dark>#470008</dark>
+    </color>
+    <color name="onTertiaryContainer">
+        <light>#220004</light>
+        <dark>#FFE2E3</dark>
+    </color>
+
+    <color name="quaternary">
+        <light>#006E14</light>
+        <dark>#75FF7B</dark>
+    </color>
+    <color name="quaternaryContainer">
+        <light>#C3FFC1</light>
+        <dark>#001905</dark>
+    </color>
+    <color name="onQuaternary">
+        <light>#FFFFFF</light>
+        <dark>#003906</dark>
+    </color>
+    <color name="onQuaternaryContainer">
+        <light>#001905</light>
+        <dark>#E8FFE2</dark>
+    </color>
+</resources>
+
+    <!--val Black = Color(0xFF000000)
+    val White = Color(0xFFFFFFFF)
+
+    val Error0 = Color(0xFF000000)
+    val Error5 = Color(0xFF2C0001)
+    val Error10 = Color(0xFF410002)
+    val Error20 = Color(0xFF690005)
+    val Error30 = Color(0xFF93000A)
+    val Error40 = Color(0xFFBA1A1A)
+    val Error50 = Color(0xFFDE3730)
+    val Error60 = Color(0xFFFF5449)
+    val Error70 = Color(0xFFFF897D)
+    val Error80 = Color(0xFFFFB4AB)
+    val Error90 = Color(0xFFFFDAD6)
+    val Error95 = Color(0xFFFFEDEA)
+    val Error99 = Color(0xFFFFFBFF)
+    val Error100 = Color(0xFFFFFFFF)
+
+    val Neutral0 = Color(0xFF000000)
+    val Neutral5 = Color(0xFF0F1113)
+    val Neutral10 = Color(0xFF191C1E)
+    val Neutral20 = Color(0xFF2E3133)
+    val Neutral30 = Color(0xFF454749)
+    val Neutral40 = Color(0xFF5C5F61)
+    val Neutral50 = Color(0xFF757779)
+    val Neutral60 = Color(0xFF757779)
+    val Neutral70 = Color(0xFFAAABAD)
+    val Neutral80 = Color(0xFFC5C6C9)
+    val Neutral90 = Color(0xFFE1E2E5)
+    val Neutral95 = Color(0xFFF0F1F3)
+    val Neutral99 = Color(0xFFFBFCFE)
+    val Neutral100 = Color(0xFFFFFFFF)
+
+    val NeutralVariant0 = Color(0xFF000000)
+    val NeutralVariant5 = Color(0xFF0A1215)
+    val NeutralVariant10 = Color(0xFF151D21)
+    val NeutralVariant20 = Color(0xFF2A3136)
+    val NeutralVariant30 = Color(0xFF40484D)
+    val NeutralVariant40 = Color(0xFF40484D)
+    val NeutralVariant50 = Color(0xFF71787D)
+    val NeutralVariant60 = Color(0xFF8A9297)
+    val NeutralVariant70 = Color(0xFFA5ACB2)
+    val NeutralVariant80 = Color(0xFFA5ACB2)
+    val NeutralVariant90 = Color(0xFFDCE3E9)
+    val NeutralVariant95 = Color(0xFFEBF2F8)
+    val NeutralVariant99 = Color(0xFFFBFCFF)
+    val NeutralVariant100 = Color(0xFFFFFFFF)
+
+    val Primary0 = Color(0xFF000000)
+    val Primary5 = Color(0xFF00131D)
+    val Primary10 = Color(0xFF001E2B)
+    val Primary20 = Color(0xFF003548)
+    val Primary30 = Color(0xFF004D67)
+    val Primary40 = Color(0xFF006688)
+    val Primary50 = Color(0xFF0080AA)
+    val Primary60 = Color(0xFF1D9BCB)
+    val Primary70 = Color(0xFF48B6E7)
+    val Primary80 = Color(0xFF75D1FF)
+    val Primary90 = Color(0xFFC2E8FF)
+    val Primary95 = Color(0xFFE2F3FF)
+    val Primary99 = Color(0xFFFAFBFF)
+    val Primary100 = Color(0xFFFFFFFF)
+
+    val Secondary0 = Color(0xFF000000)
+    val Secondary5 = Color(0xFF1C0700)
+    val Secondary10 = Color(0xFF2B0A00)
+    val Secondary20 = Color(0xFF3B0900)
+    val Secondary30 = Color(0xFF5F1500)
+    val Secondary40 = Color(0xFF882200)
+    val Secondary50 = Color(0xFFB02F05)
+    val Secondary60 = Color(0xFFD3471F)
+    val Secondary70 = Color(0xFFF66036)
+    val Secondary80 = Color(0xFFFF8B6B)
+    val Secondary90 = Color(0xFFFFB5A1)
+    val Secondary95 = Color(0xFFFFDBD1)
+    val Secondary99 = Color(0xFFFFFBFF)
+    val Secondary100 = Color(0xFFFFFFFF)
+
+    val Tertiary0 = Color(0xFF000000)
+    val Tertiary5 = Color(0xFF220004)
+    val Tertiary10 = Color(0xFF2B0003)
+    val Tertiary20 = Color(0xFF470008)
+    val Tertiary30 = Color(0xFF660001)
+    val Tertiary40 = Color(0xFF880011)
+    val Tertiary50 = Color(0xFFAA0016)
+    val Tertiary60 = Color(0xFFCC1C2B)
+    val Tertiary70 = Color(0xFFE84752)
+    val Tertiary80 = Color(0xFFFF757C)
+    val Tertiary90 = Color(0xFFFFC1C2)
+    val Tertiary95 = Color(0xFFFFE2E3)
+    val Tertiary99 = Color(0xFFFFFAFA)
+    val Tertiary100 = Color(0xFFFFFFFF)
+
+    val Quaternary0 = Color(0xFF000000)
+    val Quaternary5 = Color(0xFF001905)
+    val Quaternary10 = Color(0xFF002202)
+    val Quaternary20 = Color(0xFF003906)
+    val Quaternary30 = Color(0xFF00530D)
+    val Quaternary40 = Color(0xFF006E14)
+    val Quaternary50 = Color(0xFF008B1C)
+    val Quaternary60 = Color(0xF00A825)
+    val Quaternary70 = Color(0xFF1DC634)
+    val Quaternary80 = Color(0xFF75FF7B)
+    val Quaternary90 = Color(0xFFC3FFC1)
+    val Quaternary95 = Color(0xFFE8FFE2)
+    val Quaternary99 = Color(0xFFFAFFFB)
+    val Quaternary100 = Color(0xFFFFFFFF)
+
+    val Background = Color(0xFFFFFFFF)
+    val OnBackground = Color(0xFF191C1E)
+
+    val Error = Color(0xFFBA1A1A)
+    val ErrorContainer = Color(0xFFFFDAD6)
+
+    val InverseOnSurface = Color(0xFFF0F1F3)
+    val InverseSurface = Color(0xFF2E3133)
+
+    val OnError = Color(0xFFFFFFFF)
+    val OnErrorContainer = Color(0xFF410002)
+
+    val Surface = Color(0xFFFBFCFE)
+    val SurfaceTint = Color(0xFF006688)
+    val SurfaceVariant = Color(0xFFDCE3E9)
+    val OnSurface = Color(0xFF191C1E)
+    val OnSurfaceVariant = Color(0xFF40484D)
+
+    val Scrim = Color(0xFFFFFFFF)
+
+    val Outline = Color(0xFF71787D)
+    val OutlineVariant = Color(0xFFFFFFFF)
+
+    val Shadow = Color(0xFF000000)
+
+    val Primary = Color(0xFF006688)
+    val PrimaryContainer = Primary95
+    val OnPrimary = Color(0xFFFFFFFF)
+    val OnPrimaryContainer = Color(0xFF001E2B)
+    val InversePrimary = Color(0xFF76D1FF)
+
+    val Secondary = Color(0xFF882200)
+    val SecondaryContainer = Secondary95
+    val OnSecondary = Color(0xFFFFFFFF)
+    val OnSecondaryContainer = Color(0xFF2B0A00)
+
+    val Tertiary = Color(0xFF880011)
+    val TertiaryContainer = Tertiary95
+    val OnTertiary = Color(0xFFFFFFFF)
+    val OnTertiaryContainer = Color(0xFF220004)
+
+    val Quaternary = Color(0xFF006E14)
+    val QuaternaryContainer = Quaternary95
+    val OnQuaternary = Color(0xFFFFFFFF)
+    val OnQuaternaryContainer = Color(0xFF001905)-->

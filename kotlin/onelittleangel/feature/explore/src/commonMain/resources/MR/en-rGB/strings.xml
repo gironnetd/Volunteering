@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <string name="explore.searchbar.placeholder">Selection of the day</string>
+    <!--<string name="explore.searchbar.placeholder">Quotes, pictures &amp; biographies</string>-->
+    <string name="explore.foryou">for you</string>
+    <string name="explore.authors">authors</string>
+    <string name="explore.books">books</string>
+    <string name="explore.faiths">faiths</string>
+    <string name="explore.themes">themes</string>
+</resources>

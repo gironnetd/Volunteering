@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <string name="settings.title">Paramètres</string>
+    <string name="settings.dismiss.dialog.button.text">OK</string>
+    <string name="settings.theme">Thème</string>
+    <string name="settings.dark.mode.preference">Préférences d\'affichage</string>
+    <string name="settings.system.default">Système par défaut</string>
+    <string name="settings.light">Claire</string>
+    <string name="settings.dark">Sombre</string>
+    <string name="settings.primary">Bleue</string>
+    <string name="settings.secondary">Orange</string>
+    <string name="settings.tertiary">Grenat</string>
+    <string name="settings.quaternary">Vert</string>
+</resources>

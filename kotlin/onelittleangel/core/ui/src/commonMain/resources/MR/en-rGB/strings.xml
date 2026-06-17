@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <string name="my_string">My default localization string</string>
+    <string name="bookmarks.reading.list">Reading List</string>
+    <string name="bookmarks.bookmarks">bookmarks</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <string name="bookmarks.save.to">Enregistrer dans</string>
+    <string name="bookmarks.create.bookmarks">Créer une nouvelle liste...</string>
+    <string name="bookmarks.on.device">Sur votre appareil</string>
+    <string name="bookmarks.from.account">Depuis votre compte</string>
+    <string name="bookmarks.shared">Partagée sur l\'appareil et votre compte</string>
+    <string name="bookmarks.on.account">Sur votre compte</string>
+    <string name="bookmarks.reading.list">Liste de lecture</string>
+    <string name="bookmarks.list.name">Nom de la liste</string>
+    <string name="bookmarks.description">Description (optionel)</string>
+    <string name="bookmarks.undefined">Indéfini</string>
+</resources>

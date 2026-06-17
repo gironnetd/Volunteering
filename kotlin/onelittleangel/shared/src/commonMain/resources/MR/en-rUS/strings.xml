@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <string name="compose.app.foryou">Selection of the day</string>
+    <string name="compose.app.authors">authors</string>
+    <string name="compose.app.books">books</string>
+    <string name="compose.app.faiths">faiths</string>
+    <string name="compose.app.themes">themes</string>
+    <string name="compose.app.explore">explore</string>
+    <string name="compose.app.recents">recents</string>
+    <string name="compose.app.saved">saved</string>
+</resources>
